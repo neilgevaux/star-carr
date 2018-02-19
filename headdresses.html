@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Welcome to the world of Star Carr: a Mesolithic site dating from 9000 BC">
+		<meta name="keywords" content="mesolithic, archaeology, milner, prehistoric, artefacts, stag, deer, frontlet, barbed, point, antler, ice age">
+		<meta name="robots" content="index, follow">
+		<meta name="revisit-after" content="3 month">
+		<meta name="author" content="">
+		
+		<title>Antler headdresses | Star Carr</title>
+      
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/3dhop.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		<!-- 3Dhop -->
+		<script src="/js/3dhop/modernizr.js"></script>
+		<script src="/js/3dhop/spidergl.js"></script>
+		<script src="/js/3dhop/jquery.js"></script>
+		<script src="/js/3dhop/presenter.js"></script>
+		<script src="/js/3dhop/nexus.js"></script>
+
+
+		<link href='https://fonts.googleapis.com/css?family=Lora|Roboto:300,400,700' rel='stylesheet' type='text/css'>
+		<!-- <link rel="stylesheet" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="mobile.css" /> -->
+        <!-- favicons -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="images/favicons/icons/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="images/favicons/icons/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="images/favicons/icons/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="images/favicons/icons/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="images/favicons/icons/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/icons/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/icons/favicon-16.png">
+		<link rel="apple-touch-icon" href="images/favicons/icons/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/icons/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/icons/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/icons/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/icons/favicon-60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/icons/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/icons/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/icons/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/icons/favicon-180.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/favicon-144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+		<!-- favicons -->
+		<script type="text/javascript">
+			    var presenter = null;
+			    
+			    function setup3dhop() { 
+			      presenter = new Presenter("draw-canvas");
+			    
+			      presenter.setScene({
+			        meshes: {
+			          "3dObject" : { url: "models/22.nxs" }
+			        },
+			        modelInstances : {
+			          "Model1" : { mesh : "3dObject" }
+			        }
+			        
+			        
+			        
+			      });
+			    }
+			    
+			    function actionsToolbar(action) {
+			      if(action=='home') presenter.resetTrackball(); 
+			      else if(action=='zoomin') presenter.zoomIn();
+			      else if(action=='zoomout') presenter.zoomOut(); 
+			      else if(action=='light' || action=='light_on') {
+			        presenter.enableLightTrackball(!presenter.isLightTrackballEnabled()); lightSwitch(); } 
+			      else if(action=='full'  || action=='full_on') fullscreenSwitch(); 
+			    }
+			    
+			    $(document).ready(function(){
+			      	if(Modernizr.webgl && !(navigator.vendor.indexOf("Apple")==0 && /\sSafari\//.test(navigator.userAgent))) {
+						init3dhop();
+			    		setup3dhop();
+						resizeCanvas(598,400);
+					} else {
+						$("#3dhop-wrapper").hide();
+						$("#3dhop-message").show();
+					}
+			    });
+			</script><script type="text/javascript">
+				if (hs.addSlideshow) hs.addSlideshow({
+						slideshowGroup: [1,2],
+						interval: 4000,				
+						repeat: false,
+						useControls: true,
+						fixedControls: false,
+						overlayOptions: {
+							opacity: 1,
+							position: 'top right',
+							hideOnMouseOut: false
+						}
+					});
+			</script>
+	</head>
+
+	<body>
+		<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div id="wrapper"><!-- Page wrapper div -->
+			<div id="banner"><!-- Banner div -->
+				<div class="imgLogo"><!-- Logo container class -->
+					<a href="index.html">
+						<img src="images/global/customLogo.png" title="Home" width="150" height="50">
+					</a>
+				</div><!-- End logo container class -->
+
+					<ul class="shareButtons"><!-- Social media buttons class -->
+					  <li><a href="https://www.facebook.com/mesolithicstarcarr/?fref=ts" title="Share on Facebook" target="_blank"><img src="images/socialMedia/facebook50px.png" width="25" height="25"></a></li>
+					  <li><a href="https://plus.google.com/103574239071672153823/posts" target="_blank" title="Share on Google+"><img src="images/socialMedia/googleplus50px.png" width="25" height="25"></a></li>
+					  <li><a href="https://twitter.com/archaeostarcarr" target="_blank" title="Tweet"><img src="images/socialMedia/twitter62px.png" width="31" height="25"></a></li>
+					  <li><a href="https://www.youtube.com/channel/UCCLAO1KgN5v6rdq3Gg4xRLQ" target="_blank" title="Watch on YouTube"><img src="images/socialMedia/youtube72px.png" width="36" height="25" ></a></li>
+
+					</ul><!-- End social media buttons class -->
+
+			<div id="navbar"><!-- Navbar div -->	
+				<ul class="dropdown" onClick="return true"><!-- This enables hover on iOS -->
+					<li><a href="index.html">Home</a></li>
+					<li>About
+						<ul>
+							<li><a href="team.html">The Team</a></li>
+							<li><a href="history.html">History of Research</a></li>
+							<li><a href="vprt.html">Vale of Pickering Research Trust</a></li>
+							<li><a href="news.html">News Stories</a></li>
+							<li><a href="funding.html">Funding</a></li>					
+						</ul>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li>Explore
+						<ul>
+							<li><a href="pendant.html">Pendant</a></li>
+							<li><a href="headdresses.html">Headdresses</a>
+							<li><a href="fish.html">Fish Remains</a></li>
+							<li><a href="digital-museum.html">The Digital Museum</a></li>
+						</ul>
+					</li>
+					<li><a href="film.html">Film</a></li>
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+					<li><a href="schools.html">Schools</a></li>
+					<li><a href="links.html">Links</a></li>
+					
+					
+			</div><!-- End navbar div -->
+
+			</div><!-- End banner div -->
+	<div id="mainContent"><!-- Main content div -->	
+				<div id="bannerSlide"><!-- Div for narrow image at top of page -->
+				<div id="bannerSlideshow">
+					 <img src="images/global/reconstructionBanner.jpg" title="" class="active" height="100" />
+   					 <img src="images/global/fieldworkBanner.jpg" title="" height="100"/>
+   					 <img src="images/global/fieldworkBanner2.jpg" title="" height="100"/>
+				</div>
+				</div><!-- End of narrow slideshow div -->
+
+				<div id="columnContent"><!-- Div to contain content -->
+					<div class="newsPageContentLeft"><!-- Left page content div -->
+
+						<div id="3dhop-wrapper">
+							<h4>Preview</h4>
+							<div style="display:block; margin:10px 0px 10px 30px;">
+								<div id="3dhop" class="tdhop" style="border:1px solid #ccc;" onmousedown="if (event.preventDefault) event.preventDefault()">
+								  <div id="toolbar">
+							        <img id="home"     title="Home"                  src="/images/3dhop/dark/home.png"   /><br/>
+							        <img id="zoomin"   title="Zoom In"               src="/images/3dhop/dark/zoomin.png" /><br/>
+							        <img id="zoomout"  title="Zoom Out"              src="/images/3dhop/dark/zoomout.png"/><br/>
+							        <img id="light_on" title="Disable Light Control" src="/images/3dhop/dark/light_on.png" style="position:absolute; visibility:hidden;"/>
+							        <img id="light"    title="Enable Light Control"  src="/images/3dhop/dark/light.png"/><br/>
+							        <img id="full_on"  title="Exit Full Screen"      src="/images/3dhop/dark/full_on.png" style="position:absolute; visibility:hidden;"/>
+							        <img id="full"     title="Full Screen"           src="/images/3dhop/dark/full.png"   />
+							      </div>
+								  <canvas id="draw-canvas" style="background-image: url(/images/3dhop/backgrounds/ads.jpg)"/>
+								</div>
+								<p style="font-size:0.75em; margin-top:0px; margin-right:4em; text-align:right;">Powered by <a href="http://vcg.isti.cnr.it/3dhop/">3DHOP</a></p>
+							</div>
+						</div>
+		<div id="3dhop-message" style="display:none; margin:20px 0px 20px 20px;">
+			<div style="width:595px; border:dashed #ccc 2px; padding:5px 10px;">
+				<p style="font-size: 0.9em">It appears your browser doesn't support <a href="https://get.webgl.org/">WebGL</a>, which means you can't see the 3D preview of this object using <a href="http://vcg.isti.cnr.it/3dhop/">3DHOP</a>. Try viewing this page in a browser like <a href="http://www.google.com/chrome/">Chrome</a>, <a href="https://www.mozilla.org">Firefox</a> or <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer 11+</a> and you'll get a 3D preview of this object.</p>
+			</div>
+		</div>
+
+
+						<h1 class="pageContent">Antler headdresses</h1>
+						<p>One of the most intriguing artefacts found at Star Carr are the antler "frontlets" or headdresses. In the original excavations in 1949-1951, a total of 21 headdresses were found. In our more recent excavations we have found further examples&mdash;some well preserved, and others less so.</p>
+						
+						<p>There are a number of different interpretations concerning what they were used for: possibly for hunting red deer, possibly used by shamans in ritual activities. Although, research on analogous ethnographic groups suggests there may have been no real distinction between these supposedly separate functions. What is clear is that deer skulls were  being physically transformed into these enigmatic artefacts.</p>
+
+						<img class="pageContentRight" src="images/contentPages/headdress.jpg" alt="Antler headdress from Star Carr, from the Scarborough Collections" alt="Image from the Scarborough Collections, courtesy of Scarborough Museums Trust; photo by David Chalmers">
+						<div class="pageContentImgCaption">Image from the Scarborough Collections, courtesy of Scarborough Museums Trust; photo by David Chalmers</div>
+
+						<p>Over the last year we have been analysing these headdresses, using laser scanning to document and better understand the manufacturing traces visible on their surface. We then used experimental archaeological research, carrying out a range of experiments at the <a href="https://www.york.ac.uk/archaeology/centres-facilites/year-centre/" target="_blank">YEAR Centre</a>, in order  to replicate the manufacturing traces we saw. This research has enabled us to identify what methods were used 11,000 years ago to make these headdresses: revealing new complexities in their design, making and meaning in the process .This work has now been published in PLOS ONE and further explanation can be seen in a short film we have made.</p>
+
+						<p>DOI: <a href="http://dx.doi.org/10.1371/journal.pone.0152136" target="_blank">http://dx.doi.org/10.1371/journal.pone.0152136</a></p>
+
+						<p>Headdresses from Star Carr can be seen at the <a href="http://www.scarboroughmuseumstrust.com/#!star-carr/w1khd" title="" target="_blank">Rotunda Museum Scarborough</a>, the <a href="http://www.britishmuseum.org/" title="" target="_blank">British Museum</a>, and <a href="http://maa.cam.ac.uk/category/visitors-information-for-the-museum-of-archaeology-and-anthropology-in-cambridge/" title="" target="_blank">The Museum of Archaeology and Anthropology Cambridge</a>.</p>
+
+
+					</div><!-- End left page content div -->
+
+					<div class="newsPageContentRight"><!-- Right page content div -->
+					<div id="videoContent"><!-- Video content div, contains multiple embedded videos -->
+						<h2 class="pageContent">Video</h2>
+						<h4 class="pageContent">A short film showing the discovery of the frontlets</h4>
+							<p>Warning: contains scenes of animal butchery. Red deer head ethically sourced and kindly donated by the Deer Society.</p>
+							<iframe width="500" height="281" src="https://www.youtube.com/embed/gKy1tpa7qW0" frameborder="0" allowfullscreen></iframe>
+					
+		
+						<h2 class="pageContent">Educational worksheets</h2>
+						<h4 class="pageContent">For more educational resources, visit the Schools page</h4>
+					<ul class="linkBox">
+						<li><a href="docs/headdresspupils.pdf" title="" target="_blank">Pupil worksheet</br>PDF (498kb)<img src="images/favicons/rightArrow.png"></a>
+						</li>
+					</ul>
+					<ul class="linkBox">
+						<li><a href="docs/headdressteachers.pdf" title="" target="_blank">Teacher worksheet</br>PDF (500kb)<img src="images/favicons/rightArrow.png"></a>
+						</li>
+					</ul>
+					</div><!-- End video content div -->	
+					</div><!-- End right page content div -->
+
+				</div><!-- End column content div -->
+
+			</div><!-- End main content div -->
+			<div id="spacer"></div><!-- Spacer div-solves an issue with container height -->
+			<div id ="footer"><!-- Begin footer div -->
+							<div class="footerImg">
+								<ul class="footerLogos"><!-- Logo images -->
+								  <li><a href="https://erc.europa.eu/" title="European Research Council" target="_blank"><img src="images/global/ERC_Logo100px.png" height="35"></a></li>
+								  <li><a href="https://historicengland.org.uk/" title="Historic England" target="_blank"><img src="images/global/HistoricEngland100px.png" height="35"></a></li>
+								  <li><a href="http://www.york.ac.uk/" title="University of York" target="_blank"><img src="images/global/UniYork100px.png" height="35"></a></li>
+								  <li><a href="http://www.chester.ac.uk/" title="University of Chester" target="_blank"><img src="images/global/ChesterUni100px.png" height="35"></a></li>
+								  <li><a href="http://www.manchester.ac.uk/" title="The Univeristy of Manchester" target="_blank"><img src="images/global/ManchesterUni100px.png" height="35"></a></li>
+								  <li><a href="http://www.nerc.ac.uk/" title="NERC" target="_blank"><img src="images/global/nercLogo.png" height="35"></a></li>
+								  <li><a href="http://www.britac.ac.uk/" title="The British Academy" target="_blank"><img src="images/global/BritishAcademy100px.png" height="35"></a></li>
+								</ul><!-- End logo images -->
+							</div>
+			</div><!-- End footer div -->
+
+
+		</div><!-- End page wrapper div -->
+	</body>
+	<script type="text/javascript">
+		jQuery(document).ready( function($) {
+ 		jQuery('.dropdown').attr("onclick","return true");
+		});
+	</script>
+	<script>
+		function slideSwitch() {
+  		  var $active = $('#bannerSlideshow IMG.active');
+
+  		  if ( $active.length == 0 ) $active = $('#bannerSlideshow IMG:last');
+
+  		  // use this to pull the images in the order they appear in the markup
+  		  var $next =  $active.next().length ? $active.next()
+    	    : $('#bannerSlideshow IMG:first');
+
+   			 // uncomment the 3 lines below to pull the images in random order
+    
+   			 // var $sibs  = $active.siblings();
+    		// var rndNum = Math.floor(Math.random() * $sibs.length );
+  		  // var $next  = $( $sibs[ rndNum ] );
+
+
+   		 $active.addClass('last-active');
+
+  		  $next.css({opacity: 0.0})
+     	   .addClass('active')
+     	   .animate({opacity: 1.0}, 2000, function() {
+            $active.removeClass('active last-active');
+      	  });
+	}
+
+		$(function() {
+  	  setInterval( "slideSwitch()", 5000 );
+		});
+	</script>
+
+	<script type="text/javascript">
+			jQuery(document).ready( function($) {
+ 			jQuery('.dropdown').attr("onclick","return true");
+		});
+	</script>
+</html>

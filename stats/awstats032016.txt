@@ -1,0 +1,2061 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201603 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2545                
+POS_VISITOR 40870               
+POS_DAY 83769               
+POS_DOMAIN 3509                
+POS_LOGIN 3745                
+POS_ROBOT 3941                
+POS_WORMS 5015                
+POS_EMAILSENDER 5146                
+POS_EMAILRECEIVER 5289                
+POS_SESSION 84246               
+POS_SIDER 84459               
+POS_FILETYPES 5424                
+POS_OS 5732                
+POS_BROWSER 5931                
+POS_SCREENSIZE 6695                
+POS_UNKNOWNREFERER 6769                
+POS_UNKNOWNREFERERBROWSER 8625                
+POS_ORIGIN 9203                
+POS_SEREFERRALS 9353                
+POS_PAGEREFS 9551                
+POS_SEARCHWORDS 12287               
+POS_KEYWORDS 12492               
+POS_MISC 2208                
+POS_ERRORS 12598               
+POS_CLUSTER 3601                
+POS_SIDER_404 12773               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160314044908 60749 15229435 0
+FirstTime 20160301001206
+LastTime 20160314044717
+LastUpdate 20160314052501 60749 60054 695 0 0
+TotalVisits 1126                
+TotalUnique 852                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1173                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 17 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 115 7278609 39 64 7419247
+1 55 411 14359822 68 82 8521680
+2 55 664 56339570 52 81 6222373
+3 95 1206 57875094 65 168 13537746
+4 155 1321 85812319 150 216 14291036
+5 135 1005 69206934 48 99 3687843
+6 157 1718 103305521 84 143 3504217
+7 90 1169 76572831 134 184 16450396
+8 132 1373 82539384 89 152 4102015
+9 148 1612 107401826 264 390 6875521
+10 130 1561 72640547 189 314 8510622
+11 150 1614 83078853 55 144 5755566
+12 155 1833 94637650 222 378 6868891
+13 127 1204 102820093 59 102 6173970
+14 99 1298 61772493 35 105 10860160
+15 149 1471 104262274 44 88 6184139
+16 121 1012 71254270 67 108 7305194
+17 87 1215 59600811 487 541 6458703
+18 70 739 41347544 216 317 4163534
+19 31 326 14771227 83 105 9560207
+20 20 241 10782686 60 92 5583141
+21 39 273 13709156 48 79 4908824
+22 23 213 9100131 71 87 3947759
+23 78 367 11615911 61 126 8569103
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2325 23961 1412085556
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+starcarrorguk 9 110 41726 20160310050023
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+spider 757 9655315 20160313180901 0
+googlebot 598 63202367 20160314032716 128
+bot[+:,\.\;\/\\-] 341 6401655 20160314001431 53
+yandex 218 30594467 20160313121601 26
+archive\.org_bot 70 1931141 20160314043827 7
+java 62 1732823 20160309195420 3
+crawl 59 12696532 20160313075040 5
+slurp 50 2004792 20160313114509 10
+baiduspider 50 662790 20160313215918 0
+unknown 29 2262 20160313061915 29
+commons\-httpclient 2 350310 20160309115209 0
+core 2 25888 20160308130135 0
+no_user_agent 15 152398 20160312123522 1
+exabot 16 2603613 20160307233422 0
+ia_archiver 20 221743 20160305022252 4
+mojeekbot 2 13022 20160304184734 1
+seznambot 2 13022 20160304072511 1
+yacy 6 26200 20160303193840 4
+robot 5 390 20160312161456 5
+python 2 78 20160309131153 1
+surveybot 8 52088 20160311074945 4
+wordpress 21 1294550 20160306140456 0
+cfnetwork 6 38181 20160312042349 0
+linkbot 1 78 20160307133740 1
+msiecrawler 1 12944 20160311214328 0
+nutch 2 896277 20160311045210 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 1672 16010771 0 0
+png 6599 174295372 0 0
+pdf 78 75107131 0 0
+pl 48 1490481 0 0
+txt 2 156 0 0
+zip 9 114867234 0 0
+html 2138 29441850 0 0
+xml 6 2502 0 0
+jpg 12517 945369793 0 0
+js 621 5576177 0 0
+docx 36 30470766 0 0
+doc 14 18192384 0 0
+gif 221 1260939 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 263
+winxp 722
+unix 39
+winnt 3477
+win2000 4
+win98 1
+winvista 1637
+linux 3080
+macosx 6465
+winunknown 38
+win2003 21
+bsdopenbsd 1
+Unknown 442
+win2008 7771
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 51
+firefox28.0 8
+msie6.0 31
+firefox44.0.2 3
+firefox15.0 1
+microsoft\-webdav\-miniredir 4
+firefox44.0 2605
+chrome 11924
+firefox18.0 1
+firefox4.0 1
+lynx 6
+firefox34.0 3
+firefox31.0 92
+msie8.0 44
+firefox6.0.2 4
+firefox43.0 121
+msie7.0 44
+firefox16.0 2
+firefox41.0 28
+msie5.0 1
+wget 1
+msie9.0 429
+firefox27.0 1
+Unknown 300
+firefox11.0 3
+msie5.01 1
+firefox40.0 2
+firefox42.0 7
+opera 10
+firefox21.0 10
+firefox29.0 1
+firefox38.0 220
+firefox12.0 86
+firefox45.0 3
+firefox3.0.3 1
+firefox33.0 36
+firefox25.0 1
+mozilla 3463
+firefox1.5.0.5 1
+firefox37.0 3
+netscape5.0 7
+firefox14.0.1 29
+firefox3.6.28 1
+msie10.0 101
+firefox6.0 45
+firefox1.5.0.11 18
+firefox3.6.3 2
+msie 4
+firefox36.0 1
+firefox3.6.8 16
+firefox15.0.1 1
+safari 4234
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 24
+Mozilla/5.0_(Android_5.0.1;_Mobile;_rv:44.0)_Gecko/44.0_Firefox/44.0 20160304222256
+Mozilla/5.0_(Android_5.1.1;_Tablet;_rv:44.0)_Gecko/44.0_Firefox/44.0 20160302042042
+\ 20160301234301
+visionutils/0.2 20160311192341
+Mozilla/5.0_(Android_5.0.2;_Mobile;_rv:44.0.2)_Gecko/44.0.2_Firefox/44.0.2 20160302112223
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20160312150234
+panscient.com 20160306090508
+Xenu_Link_Sleuth/1.3.8 20160301212826
+Mozilla/5.0_(compatible;_Kraken/0.1;_http://linkfluence.net/;_bot@linkfluence.net) 20160309115929
+SafeDNSBot_(https://www.safedns.com/searchbot) 20160307103612
+Mozilla/5.0_(compatible;_Embedly/0.2;__http://support.embed.ly/) 20160302074840
+Mozilla/5.0_(Android_5.0.2;_Mobile;_rv:44.0)_Gecko/44.0_Firefox/44.0 20160302112220
+Mozilla/5.0_(Android_5.1.1;_Tablet;_rv:44.0.2)_Gecko/44.0.2_Firefox/44.0.2 20160302042021
+DavClnt 20160309051422
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20160305195931
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9720;_en-GB)_AppleWebKit/534.11__(KHTML,_like_Gecko)_Version/7.1.0.1083_Mobile_Safari/534.11_ 20160309034939
+Mozilla/5.0_(Android_4.4;_Mobile;_rv:44.0)_Gecko/44.0_Firefox/44.0 20160301193004
+Opera/9.80_(Android;_Opera_Mini/7.6.35766/37.7936;_U;_fa)_Presto/2.12.423_Version/12.16 20160309161012
+Mozilla/5.0_(compatible;_Embedly/0.2;_snap;__http://support.embed.ly/) 20160302074840
+Mozilla/5.0_(Android_5.0.1;_Mobile;_rv:44.0.2)_Gecko/44.0.2_Firefox/44.0.2 20160304222258
+Mozilla/5.0 20160311084820
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20160314044908
+Mozilla/4.0_(compatible;) 20160301174210
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20160312041755
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+DavClnt 20160309051422
+\ 20160301234301
+visionutils/0.2 20160311192341
+Microsoft_Office_Existence_Discovery 20160309051523
+Microsoft_Office_Protocol_Discovery 20160309051258
+panscient.com 20160306090508
+Xenu_Link_Sleuth/1.3.8 20160301212826
+SafeDNSBot_(https://www.safedns.com/searchbot) 20160307103612
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20160314044908
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20160312041755
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 513 1497
+From1 8 8
+From2 319 490
+From3 352 426
+From4 1133 21540
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 305 476
+aol 2 2
+yandex 1 1
+ask 1 1
+yahoo 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 60
+http://m.facebook.com 161 179
+https://www.facebook.com 35 35
+http://www.bing.com/search 21 21
+https://www.bing.com 18 18
+http://www.york.ac.uk/news-and-events/news/2016/research/mesolithic-shale-pendant/ 16 16
+http://www.yorkshireflyfishing.org.uk/east-yorkshire/star-carr-trout-farm-fishery/ 11 11
+http://www.facebook.com/Gertruda 9 9
+http://burger-imperia.com 8 8
+https://www.fatcow.com/controlpanel/VisitorStats.bml 6 6
+https://en.wikipedia.org 6 6
+http://xsion.net 1 1
+http://hvd-store.com 1 1
+http://tolyatti.xrus.org 1 1
+http://www.york.ac.uk/archaeology/about-us/archaeology-and-york/ 1 1
+http://m.facebook.com 3 3
+http://sdi-pme.com 1 1
+http://www.york.ac.uk/digital-heritage/events/star-carr-pendant/ 1 1
+http://hundejo.com 1 1
+http://bio.trade-jp.net 1 1
+http://search2.virginmedia.com 1 1
+http://www.schoolsprehistory.co.uk/2014/07/09/teaching-resources-for-changes-in-britain-from-the-stone-age-to-the-iron-age/ 1 1
+http://www.prehistoricsociety.org/links/ 1 1
+http://sorus.ucoz.ru 1 1
+https://secure.fatcow.com/secureLogin 2 2
+http://www.daytripfinder.co.uk/attractions/star-carr-mesolithic-settlement 1 1
+http://ukr-cegla.com.ua 1 1
+http://tyumen.xrus.org 1 1
+https://web.facebook.com 1 1
+http://aftermarket.afora.ru 1 1
+http://l.facebook.com/l.php 4 4
+http://marketbusinessnews.com/amazing-11000-year-old-engraved-shale-pendant-discovered-in-north-yorkshire/126424 0 1
+https://www.bing.com/search 3 48
+https://m.facebook.com 1 1
+http://vle.exeter.ac.uk/mod/forum/discuss.php 3 3
+http://userequip.com 1 1
+http://iqoption.pro 1 1
+http://gogps.me 1 1
+http://brendbutik.ru 1 1
+http://www.caravanclub.co.uk/CaravanClubApps/Applications/Great-Days-Out/ProductDetail.aspx 1 1
+http://thehiddenmission.com/forum/showthread.php 0 10
+http://guruofcasino.com 1 1
+http://www.bestempresas.es 1 1
+http://pornogig.com 1 1
+https://www.reddit.com/r/worldnews/comments/47osxg/an_11000yearold_pendant_has_been_found_the/ 1 1
+http://chelyabinsk.xrus.org 1 1
+http://www.alc.manchester.ac.uk/subjects/archaeology/research/projects/ 1 1
+http://www.schoolsprehistory.co.uk/wp-admin/edit-comments.php 1 1
+http://tyumen.xrus.org 1 1
+http://www.bbc.com/news/education-10929343 1 1
+http://www.manchester.ac.uk/discover/news/article/ 1 1
+http://lm.facebook.com/lsr.php 1 1
+http://www.muddyarchaeologist.co.uk/stoneage.html 1 1
+https://t.co/gQtOkkP5jx 1 1
+https://duckduckgo.com 3 3
+https://t.co/OQwo3iY7J7 2 2
+http://www.arch.cam.ac.uk/research/laboratories/clark/gcl_projects 1 1
+http://akvamaster.dp.ua 1 1
+http://wowway.net/search/index.php 1 1
+http://www.bing.com 1 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+star+carr 3
+star+carr+house 1
+stard+carr-lamalinks 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+carr 4
+star 4
+house 1
+carr-lamalinks 1
+stard 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 1 208
+206 418 43899778
+406 174 49264
+407 2 830
+302 2 482
+405 13 3043
+404 1204 921934
+301 6 1422
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 399
+/res/script/editor//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/admin/image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/wordpress/ 2 -
+/shop//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/index.rdf 1 -
+/admin/image/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/include/code/mp.php 1 http://www.starcarr.com/cache/label/909.php
+/files/Image/img/config.php 1 http://www.starcarr.com/cache/label/909.php
+/common/editor//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/index.xml 1 -
+/rss.xml 1 -
+/nyabout/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/shop/js/mage/cookies.js 2 starcarr.com/shop
+/admin/images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/Img/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/shop//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/amazi.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin1/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/YING.ASP 1 http://www.starcarr.com/cache/label/909.php
+/yp/product.php 1 http://www.starcarr.com/yp/product.php
+/admin/inc/Logout.asp 1 http://www.starcarr.com/cache/label/909.php
+/xmlrpc.php 4 -
+/common/editor//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/plus/mytag_js.php 17 http://www.starcarr.com/cache/label/909.php
+/plus/xsvip.php 1 http://www.starcarr.com/cache/label/909.php
+/manage/lib/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/data/atom 1 -
+/manage/Images/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/tile.png 7 -
+/plus/shijian.php 1 http://www.starcarr.com/cache/label/909.php
+/infose.asp 1 http://www.starcarr.com/cache/label/909.php
+/js/vendor/modernizr-2.8.3.min.js 4 http://starcarr.org/schools.html
+/th1s_1s_a_4o4.html 52 http://www.google.com/url
+/admin/maziz.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/image/diaosi.asp/ptjjn51535.jpg 1 http://www.starcarr.com/cache/label/909.php
+/inc/md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/administrator/manifests/files/joomla.xml 1 http://www.starcarr.com/administrator/manifests/files/joomla.xml
+/bbs/utility/convert/data/config.inc.php 1 http://www.starcarr.com/cache/label/909.php
+/daima/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/templxate.asp 1 http://www.starcarr.com/cache/label/909.php
+/path//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/admin//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/ty1/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/article//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/weki.php 1 http://www.starcarr.com/cache/label/909.php
+/administrator/ 5 http://starcarr.org/administrator/
+/CountriesCulturePlan//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/favicon-144.png 10 -
+/virtualdir//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/data/rss 1 -
+/userfiles/ali.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/image/thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/https://historicengland.org.uk 2 -
+/wp-login.php 11 http://starcarr.org/wp-login.php
+/editor/Include/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/Img/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/jiuge.asp 1 http://www.starcarr.com/cache/label/909.php
+/Images/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Images/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/images/thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/moe/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Image/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/mobile.css 6 http://m.facebook.com/
+/css/images/global/reconstructionBanner.jpg 73 http://www.starcarr.com/css/style.css
+/In 1 -
+/Templates/red.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/11m.php 1 http://www.starcarr.com/cache/label/909.php
+/concnn.asp 1 http://www.starcarr.com/cache/label/909.php
+/inc/Md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/UserFiles/ali.asp 1 http://www.starcarr.com/cache/label/909.php
+/sczay31829.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/manaxge.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/images/Thumb.asp 2 http://www.starcarr.com/cache/label/909.php
+/images/css/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/ioc.asp 1 http://www.starcarr.com/cache/label/909.php
+/inc/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/css/js/ad.asp 1 http://www.starcarr.com/cache/label/909.php
+/languages/zh_cn/convert/shopex49.php 2 http://www.starcarr.com/cache/label/909.php
+/Admin/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/sitemap/templates/met/SqlIn.asp 2 http://www.starcarr.com/cache/label/909.php
+/admin/fckeditor/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/imagies/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/UserFiles/File/20150903165212.asp 1 http://www.starcarr.com/cache/label/909.php
+/md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/config/AspCms_Config.asp 1 http://www.starcarr.com/cache/label/909.php
+/kkpun53181.asp 1 http://www.starcarr.com/cache/label/909.php
+/editplus.asp 2 http://www.starcarr.com/cache/label/909.php
+/index.php/feed/ 1 -
+/CountriesCulturePlan//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/zz.asp 1 http://www.starcarr.com/cache/label/909.php
+/templates/red.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/swfupload/images/uploadye.php 1 http://www.starcarr.com/cache/label/909.php
+//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/data/s.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Image/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/sjng/index.php 1 http://www.starcarr.com/cache/label/909.php
+/Manage/ewebeditor/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/goqyw28880.asp 1 http://www.starcarr.com/cache/label/909.php
+/Manage/Image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Image/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/mivc/nihao/sdei.asp 1 http://www.starcarr.com/cache/label/909.php
+/wp-admin/ 1 -
+/images/ioc.asp 1 http://www.starcarr.com/cache/label/909.php
+/dxyylc/indesax.asp 1 http://www.starcarr.com/cache/label/909.php
+/blog/feed 1 -
+/admin/snhxg/shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/docs/ResourcesForSchools.zip 1 http://starcarr.com/schools.html
+/infos.asp 1 http://www.starcarr.com/cache/label/909.php
+/egemx48582.asp 1 http://www.starcarr.com/cache/label/909.php
+/aytism.asp 1 http://www.starcarr.com/cache/label/909.php
+/news/mazi.asp 1 http://www.starcarr.com/cache/label/909.php
+/include/ckeditor/plugins/pagebreak/images/inCahe.php 1 http://www.starcarr.com/cache/label/909.php
+/manage/ewebeditor/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/include/helpers/cookie.helpea.php 1 http://www.starcarr.com/cache/label/909.php
+/12345.asp 2 http://www.starcarr.com/cache/label/909.php
+/inc1.asp 1 http://www.starcarr.com/cache/label/909.php
+/usshiuig/concon.asp 1 http://www.starcarr.com/cache/label/909.php
+/juhua/juhua.asp 2 http://www.starcarr.com/cache/label/909.php
+/UserFiles/File/syxcw40530.asp 1 http://www.starcarr.com/cache/label/909.php
+/Editor/editor/Include/C1ass.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/img/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/4ll3ygbjj/ll44/css.php 1 http://www.starcarr.com/cache/label/909.php
+/upload/uploxawad.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Images/cache.asp 2 http://www.starcarr.com/cache/label/909.php
+/install/modurnlecscache.php 1 http://www.starcarr.com/cache/label/909.php
+/admin-manage/Databackup/mixian.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/CountriesCulturePlan//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/inicp/Images/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/config/swq2l.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/images/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/files/Image/img/config.asp 1 http://www.starcarr.com/cache/label/909.php
+/userfiles/seo.asp 1 http://www.starcarr.com/cache/label/909.php
+/Image/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/kinouea/concon.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/index/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/cache/label/909.php 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Images/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/images/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/article//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/manage/image/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/mee/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/test/wp-admin/ 1 -
+/admin/sxchg/xsbvah/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/dxyylc/md5.php 1 http://www.starcarr.com/cache/label/909.php
+/admin/ 1 -
+/ms.php 1 http://www.starcarr.com/cache/label/909.php
+/xyr/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/e7xue.php 1 http://www.starcarr.com/cache/label/909.php
+/apple-touch-icon.png 1 -
+//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/admin/image/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/admins/syn.asp 1 http://www.starcarr.com/cache/label/909.php
+//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/editor/editor/Include/C1ass.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/css/sqlin.asp 1 http://www.starcarr.com/cache/label/909.php
+/fjfae29012.asp 1 http://www.starcarr.com/cache/label/909.php
+/shop//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/mser/xnbg/shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/images/Thumb.asp 2 http://www.starcarr.com/cache/label/909.php
+/UserFiles/Image/diaosi.asp/objdk20605.jpg 1 http://www.starcarr.com/cache/label/909.php
+/editor/editor/include/c1ass.asp 1 http://www.starcarr.com/cache/label/909.php
+/blog/ 1 -
+/images/css/thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/File/ali.asp 1 http://www.starcarr.com/cache/label/909.php
+/wp/ 1 -
+/base/install/inc.php 1 http://www.starcarr.com/cache/label/909.php
+/image/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/mser/xnbg/shijian.php 1 http://www.starcarr.com/cache/label/909.php
+/downl0ade/index.asp 1 http://www.starcarr.com/cache/label/909.php
+/image/mazi.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/uploaxsd.asp 1 http://www.starcarr.com/cache/label/909.php
+/attfiles/editor/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/UserFiles/File/20150903165135.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/snhxc/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/path//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/zx.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/file/dage.php 1 http://www.starcarr.com/cache/label/909.php
+/path//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/euzum06209.asp 1 http://www.starcarr.com/cache/label/909.php
+/adm1n/md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/js/jquery.mousewheel-3.0.6.pack.js 270 http://www.starcarr.com/gallery.html
+/ztxxw/Images/images.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/ADMIN/inc/Logout.asp 1 http://www.starcarr.com/cache/label/909.php
+/\"%20title= 1 -
+/somnus/somnus.asp 1 http://www.starcarr.com/cache/label/909.php
+/store/js/mage/cookies.js 1 starcarr.com/store
+/admin//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/article//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/moe/index_.php 1 http://www.starcarr.com/cache/label/909.php
+/login.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/image/diaosi.asp/criic48560.jpg 1 http://www.starcarr.com/cache/label/909.php
+/images/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/mybak.php 1 http://www.starcarr.com/cache/label/909.php
+/include/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Images/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/apple-app-site-association 1 -
+/feeds/posts/default 1 -
+/res/script/editor//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/xz.asp 1 http://www.starcarr.com/cache/label/909.php
+/userfiles/image/diaosi.asp/syxcw40530.jpg 1 http://www.starcarr.com/cache/label/909.php
+/userFiles/Image/diaosi.asp/zypek54471.jpg 1 http://www.starcarr.com/cache/label/909.php
+/docs/11000YearsAgo.pdf 5 http://starcarr.com/schools.html
+/serve.asp 1 http://www.starcarr.com/cache/label/909.php
+/ma1/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/newsm.asp 1 http://www.starcarr.com/cache/label/909.php
+/Inc/Md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/xyoxr05352.asp 1 http://www.starcarr.com/cache/label/909.php
+/mes/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/editor/Include/C1ass.asp 1 http://www.starcarr.com/cache/label/909.php
+/meo/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/images/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/temp/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/UpFile/File/ad.asp 1 http://www.starcarr.com/cache/label/909.php
+/phptest.php 1 http://www.starcarr.com/cache/label/909.php
+/ma2/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/Images/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/virtualdir//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/plus/c.php 1 http://www.starcarr.com/cache/label/909.php
+/Images/img/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/lvkdy13234.asp 1 http://www.starcarr.com/cache/label/909.php
+/js/varien/product.js 2 -
+/utility/convert/data/config.inc.php 3 http://www.starcarr.com/cache/label/909.php
+/images/date.php 1 http://www.starcarr.com/cache/label/909.php
+/Inc/md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/dxyylc/md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/images/thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/Inc/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/imagies/sqlin.asp 1 http://www.starcarr.com/cache/label/909.php
+/common/editor//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/install/m7lrv.php 1 http://www.starcarr.com/cache/label/909.php
+/https://erc.europa.eu 2 -
+/test/cnm.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/ad_js.php 2 http://www.starcarr.com/cache/label/909.php
+/plus/xcnc/index.php 1 http://www.starcarr.com/cache/label/909.php
+/admin/Images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/data/cache/log.php 1 http://www.starcarr.com/cache/label/909.php
+/images/mazi.asp 1 http://www.starcarr.com/cache/label/909.php
+/lang/cn/system.php 1 http://www.starcarr.com/cache/label/909.php
+/UserFiles/File/20150903165136.asp 1 http://www.starcarr.com/cache/label/909.php
+/includes/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/shijian/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/bbc/mama.asp 1 http://www.starcarr.com/cache/label/909.php
+/hy/choose_pic.php 1 http://www.starcarr.com/hy/choose_pic.php
+/shop//fckeditor/editor/filemanager/connectors/asp/connector.asp 4 http://www.starcarr.com/shop//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/wp/wp-admin/ 1 -
+/upload/image/diaosi.asp/nnfdb37919.jpg 1 http://www.starcarr.com/cache/label/909.php
+/admin/dnhx/sdfg.php 1 http://www.starcarr.com/cache/label/909.php
+/docs/AMesolithicPicnicInitialScoreSheet.pdf 1 http://www.starcarr.com/schools.html
+/sqzr.php 1 http://www.starcarr.com/cache/label/909.php
+/bbc/mazi.asp 1 http://www.starcarr.com/cache/label/909.php
+/xlmve65907.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/sqlin.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/css/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Images/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/vopfks.php 1 http://www.starcarr.com/cache/label/909.php
+/wp-admin/admin-ajax.php 3 -
+/js/mage/cookies.js 1 starcarr.com
+/php.php 1 http://www.starcarr.com/cache/label/909.php
+/Images/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/CountriesCulturePlan//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/config/aspcms_config.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/eWebEditor/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/miwu/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/Index/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/rss 2 -
+/moc/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/mager.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Images/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/administrator/index.php 1 -
+/Admin/images/cache.asp 2 http://www.starcarr.com/cache/label/909.php
+/Manage/Images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/laobiao.php 1 http://www.starcarr.com/cache/label/909.php
+/sitemap/templates/met/sqlin.asp 1 http://www.starcarr.com/cache/label/909.php
+/js/lightbox.js 265 http://www.starcarr.com/gallery.html
+/res/script/editor//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/media/ali.asp/ali.jpg 1 http://www.starcarr.com/cache/label/909.php
+/rosoft/overfill/index.asp 1 http://www.starcarr.com/cache/label/909.php
+/wordpress/wp-admin/ 1 -
+/ADMIN/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/css/slideshow.css 4 -
+/images/ad/index.asp 1 http://www.starcarr.com/cache/label/909.php
+/mivc/nihao/data.php 1 http://www.starcarr.com/cache/label/909.php
+/virtualdir//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/image/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/images/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/cache.asp 2 http://www.starcarr.com/cache/label/909.php
+/admin/image/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/Images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/virtualdir//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/images/team/DiederikPomstra.jpg 18 http://starcarr.com/team.html
+/docs/AMesolithicPicnicFullScoreSheet.pdf 1 http://www.starcarr.com/schools.html
+/images/thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/objdk20605.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/manage/images/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/tasty/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/sitemap.xml 2 -
+/infosc.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/mazi.asp 1 http://www.starcarr.com/cache/label/909.php
+/editor/Include/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/fdc1/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/Somnus/Somnus.asp 1 http://www.starcarr.com/cache/label/909.php
+/templets/plus/sky.php 1 http://www.starcarr.com/cache/label/909.php
+/res/script/editor//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+//fckeditor/editor/filemanager/connectors/aspx/connector.aspx 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/admin/images/sqlin.asp 1 http://www.starcarr.com/cache/label/909.php
+/image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/fdc2/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/manage/images/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/r.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/djxx/index.php 1 http://www.starcarr.com/cache/label/909.php
+/link.php 1 http://www.starcarr.com/cache/label/909.php
+/upload/uploxsrad.asp 1 http://www.starcarr.com/cache/label/909.php
+/images/seo.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/img/image/config.php 1 http://www.starcarr.com/cache/label/909.php
+/conn.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/sbxjg/zxng/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/mm.asp 1 http://www.starcarr.com/cache/label/909.php
+/data/cache/t.php 1 http://www.starcarr.com/cache/label/909.php
+/include/data/check.asp 2 http://www.starcarr.com/cache/label/909.php
+/inc/Logout.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/Images/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/feed 1 -
+/feng/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/include/data/fonts/uddatasql.php 1 http://www.starcarr.com/cache/label/909.php
+/doubi2/index_.asp 1 http://www.starcarr.com/cache/label/909.php
+/include/helperss/filter.helpear.php 1 http://www.starcarr.com/cache/label/909.php
+/plus/90sec.php 1 http://www.starcarr.com/cache/label/909.php
+/hot/confings.asp 1 http://www.starcarr.com/cache/label/909.php
+/ztxxw/images/images.asp 1 http://www.starcarr.com/cache/label/909.php
+/rmydb41347.asp 1 http://www.starcarr.com/cache/label/909.php
+/blog/wp-admin/ 1 -
+/home 4 -
+/Admin/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/path//fckeditor/editor/filemanager/connectors/asp/connector.asp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/readme-ical.txt 1 http://www.starcarr.com/readme-ical.txt
+/COPYRIGHT.txt 1 http://www.starcarr.com/COPYRIGHT.txt
+/plus/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/utility/convert/index.php 1 http://www.starcarr.com/utility/convert/index.php
+/manage/Image/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Image/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/upload/file/ad.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/eWebEditor/sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/shijian/shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/userfiles/file/20150901145551(1).asp 1 http://www.starcarr.com/cache/label/909.php
+/old/wp-admin/ 1 -
+/kehu.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/fcjh/index.php 1 http://www.starcarr.com/cache/label/909.php
+/includes/shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/plus/myjs.php 1 http://www.starcarr.com/cache/label/909.php
+/UserFiles/Image/diaosi.asp/rmydb41347.jpg 1 http://www.starcarr.com/cache/label/909.php
+/admin/indgj/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/imwedcn/max36x/index.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Inc/Logout.asp 1 http://www.starcarr.com/cache/label/909.php
+/css1/md5.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/IMAGES/check.asp 1 http://www.starcarr.com/cache/label/909.php
+/docs/ToolsRUs.pdf 1 http://starcarr.com/schools.html
+/ayoow20244.asp 1 http://www.starcarr.com/cache/label/909.php
+/inc/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/images/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/yeager/COPYRIGHT.txt 1 http://www.starcarr.com/yeager/COPYRIGHT.txt
+/wp-content/force-download.php 3 -
+/blog/robots.txt 1 -
+/plus/mytag_j.php 2 http://www.starcarr.com/cache/label/909.php
+/yanyu/ 1 http://www.starcarr.com/cache/label/909.php
+/images/css/js/ad.php 1 http://www.starcarr.com/cache/label/909.php
+/admin/snhxg/Shijian.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/Image/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/wp-content/uploads/phptest.php 1 http://www.starcarr.com/cache/label/909.php
+/inc/config.asp 2 http://www.starcarr.com/cache/label/909.php
+/Manage/images/Thumb.asp 1 http://www.starcarr.com/cache/label/909.php
+/Admin/indgj/SqlIn.asp 1 http://www.starcarr.com/cache/label/909.php
+/_Star_Carr 2 -
+/common/editor//fckeditor/editor/filemanager/connectors/jsp/connector.jsp 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/plus/date.php 1 http://www.starcarr.com/cache/label/909.php
+/Admin/eWebEditor/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+/atom.xml 1 -
+/hg5922/mma.asp 1 http://www.starcarr.com/cache/label/909.php
+/index.php 1 -
+/pfdbn94550.asp 1 http://www.starcarr.com/cache/label/909.php
+/article//fckeditor/editor/filemanager/connectors/php/connector.php 2 http://www.starcarr.com//fckeditor/editor/filemanager/connectors/asp/connector.asp
+/66555.asp 1 http://www.starcarr.com/cache/label/909.php
+/Inc/cache.asp 1 http://www.starcarr.com/cache/label/909.php
+/admin/images/Sql.asp 1 http://www.starcarr.com/cache/label/909.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1173
+144.32.220.150 54 945 27203976 20160309035752
+144.32.240.49 50 306 8141230 20160310050022
+151.226.61.34 44 476 15812022 20160310175217
+184.154.139.19 20 53 6698423 20160312122253
+184.154.139.21 20 65 5899884 20160313104604
+199.233.246.195 18 18 249889 20160309140605
+86.57.167.45 18 18 1755891 20160310213756
+144.32.220.79 18 138 6807207 20160311075801
+82.41.60.249 17 230 8709204 20160305034103
+144.76.71.83 17 17 239859 20160311235514
+109.180.10.1 0 1 34163 
+109.234.162.94 1 1 12944 20160302110332
+213.2.190.34 7 13 6420562 20160309084430
+69.58.178.56 11 11 161051 20160312041805
+204.79.180.117 0 1 11532 
+157.140.111.8 1 19 481381 20160302061619
+86.167.75.246 1 1 12199 20160305155927
+31.14.33.57 1 1 12944 20160310010928
+192.99.41.217 1 1 12944 20160306214023
+62.3.99.193 1 29 1662735 20160309104116
+79.73.91.199 8 119 12049472 20160308161513
+31.52.151.20 1 58 816346 20160302134214
+134.249.51.187 1 1 12944 20160310212835
+192.189.128.20 2 58 7260061 20160301174210
+80.7.67.9 3 13 960749 20160303001558
+173.180.249.132 1 24 1351973 20160306224907
+162.209.84.156 1 1 12199 20160309174713
+82.30.185.207 1 5 19223 20160302050658
+151.229.250.143 1 1 12944 20160302062229
+144.76.23.144 1 1 12944 20160309111253
+92.17.75.111 1 1 14645 20160309173016
+173.252.90.88 0 2 410000 
+144.32.220.63 2 2 31892 20160301104614
+69.171.230.119 0 2 402533 
+173.252.90.117 0 1 234179 
+158.234.250.71 16 16 19506568 20160309151347
+213.205.253.165 1 26 1394857 20160309132626
+109.147.236.229 0 20 1335934 
+24.131.227.213 2 25 1369079 20160307111910
+84.92.51.210 1 8 1131362 20160304085503
+86.165.130.136 1 1 14645 20160309045446
+92.22.199.246 1 1 14645 20160309104139
+80.47.189.178 3 75 3009891 20160302152458
+173.252.112.118 0 1 205000 
+69.63.188.209 0 2 439179 
+5.61.195.129 1 28 1194415 20160301163226
+85.233.72.202 1 14 446945 20160309014218
+86.1.113.125 6 29 1490928 20160310084441
+31.205.162.12 2 30 2059548 20160302180414
+189.45.80.32 0 1 21980 
+2.220.118.12 1 2 181298 20160304062932
+109.151.63.28 3 48 936803 20160302040716
+52.17.244.153 1 1 12944 20160309115929
+92.238.50.182 1 1 14645 20160309160245
+92.16.202.217 1 3 47173 20160302041245
+105.199.255.181 0 5 10796 
+173.252.88.88 0 4 994489 
+204.79.180.225 1 1 12944 20160305230218
+173.252.90.245 0 3 791431 
+173.252.90.121 0 1 44124 
+109.146.66.122 9 34 5274962 20160306140500
+172.98.84.110 1 1 544631 20160309172756
+73.25.176.142 2 88 9145129 20160301172759
+92.10.245.210 1 23 1351618 20160303180936
+162.243.5.155 1 1 13744 20160309062432
+204.79.180.30 1 1 12944 20160303003950
+66.220.156.111 0 1 168354 
+173.252.88.92 0 1 350310 
+131.111.106.144 1 30 1396932 20160307121301
+80.7.118.197 1 1 14645 20160310115908
+66.220.146.25 0 2 473512 
+213.107.231.96 1 35 2101524 20160307072038
+82.18.20.244 1 3 77850 20160303085824
+62.254.173.210 2 10 461281 20160304045743
+204.79.180.29 0 1 7708 
+173.252.90.234 0 1 168354 
+91.140.11.208 1 15 390146 20160303043339
+141.0.14.217 2 6 334247 20160302053222
+193.61.162.77 3 72 3301367 20160301082036
+81.145.26.20 0 13 1157911 
+31.51.93.106 1 1 12944 20160303180812
+213.205.252.123 1 1 12944 20160303190157
+204.79.180.211 1 1 12944 20160306190347
+86.173.126.254 1 12 283436 20160306102506
+167.114.174.95 9 9 128223 20160312150234
+188.221.119.101 0 27 1045184 
+78.150.164.229 2 11 801559 20160304155419
+212.9.116.9 1 3 27914 20160312133048
+92.40.249.66 2 74 2576529 20160309143643
+174.0.233.137 1 64 5235769 20160301182204
+52.71.155.178 3 3 42816 20160303033743
+83.233.10.98 5 54 1023528 20160311095749
+93.93.223.99 0 1 33440 
+204.79.180.223 1 1 12944 20160301120231
+82.2.198.26 1 24 1385781 20160306120936
+2.220.84.190 0 1 44124 
+173.252.89.224 0 1 168354 
+80.88.212.45 3 52 2160761 20160304051604
+83.0.208.61 0 1 355 
+137.50.155.3 0 2 1018879 
+149.254.51.170 3 34 2574211 20160307191957
+173.197.15.166 1 9 305877 20160309111636
+94.11.185.123 0 21 1339976 
+173.252.114.113 0 2 36791 
+89.168.169.208 0 2 8559 
+80.193.86.26 1 22 539598 20160304061157
+173.252.90.92 0 4 1025610 
+92.30.225.79 1 1 14645 20160309142557
+204.79.180.206 0 1 17663 
+79.64.62.226 2 2 20129 20160303064538
+86.137.211.52 1 27 716481 20160310013852
+107.13.102.104 5 116 10749358 20160302034643
+204.79.180.196 0 1 17610 
+193.60.231.31 1 2 181298 20160303091058
+212.44.37.143 2 28 1666346 20160303023755
+46.119.123.182 1 1 12944 20160308030141
+204.79.180.252 0 1 7708 
+204.79.180.5 0 3 26948 
+86.183.39.129 4 61 1718120 20160312135752
+80.229.182.148 0 1 4042 
+92.14.104.166 1 27 1625670 20160302091045
+66.249.93.228 2 7 27977 20160304043124
+66.220.146.29 0 4 622478 
+203.133.169.33 1 1 12944 20160306130625
+180.95.18.4 1 23 1351618 20160307194000
+82.132.229.132 3 35 2215840 20160303154200
+146.90.195.201 1 1 12944 20160303090301
+86.167.190.159 0 8 566461 
+109.151.182.168 7 128 3148731 20160310175824
+192.104.67.122 3 70 1523455 20160301135957
+82.132.246.242 1 20 655671 20160309102912
+67.100.206.42 1 28 1345237 20160312194429
+86.19.192.20 3 33 1924858 20160309023936
+82.21.169.241 5 31 1706752 20160302123542
+92.25.55.103 0 1 355 
+204.79.180.44 0 1 11663 
+66.220.158.103 0 1 350310 
+94.72.226.156 1 23 1351618 20160307060620
+2.97.206.70 3 89 4185583 20160306182521
+5.198.9.113 3 4 92845 20160302050428
+81.133.121.221 2 2 29290 20160310030129
+66.249.93.5 2 5 27110 20160314044717 20160314044717 /
+80.229.20.40 1 1 14645 20160309062545
+133.130.63.178 13 13 3080378 20160308152227
+69.171.230.122 0 1 49659 
+84.13.70.49 2 24 1364562 20160302040749
+86.30.49.151 1 1 14645 20160309040242
+146.199.41.219 7 33 17934067 20160311024905
+90.198.59.196 8 68 4480695 20160308111221
+141.105.68.6 1 1 12944 20160306081439
+173.252.74.102 0 1 418077 
+217.39.28.16 4 79 3019889 20160305154047
+80.43.75.8 1 23 1352135 20160308153131
+112.211.208.77 0 1 13117 
+194.75.39.111 1 4 52065 20160309082517
+166.78.181.113 2 2 25888 20160306063659
+69.58.178.58 11 11 160808 20160302135758
+92.25.51.37 1 23 1352135 20160312135637
+146.199.62.43 1 1 12944 20160304055440
+83.100.135.30 3 74 2555310 20160310100420
+87.127.90.35 1 25 1399568 20160302060639
+31.87.33.197 0 6 73948 
+31.68.0.115 8 64 3177314 20160306114211
+89.242.170.189 3 13 644920 20160304103517
+151.228.222.49 0 22 1338674 
+77.106.182.238 1 21 705330 20160309035202
+87.115.95.170 0 4 988116 
+176.10.104.240 1 1 12944 20160308163118
+151.226.200.128 1 1 12944 20160309074108
+94.194.139.41 6 59 2811391 20160308051621
+82.132.235.55 2 26 655813 20160305041349
+86.137.211.74 5 27 2012257 20160309181040
+86.136.252.94 1 23 1351618 20160303134745
+2.25.193.250 7 134 3903468 20160301030759
+90.205.159.241 2 32 1896479 20160301154654
+69.63.188.214 0 1 44124 
+173.252.114.112 0 1 4245 
+74.98.200.254 1 1 12944 20160301212849
+149.254.56.194 1 10 1319922 20160302125822
+173.18.68.53 2 33 1274928 20160306182340
+110.20.199.163 1 24 1221944 20160304222249
+188.166.20.171 1 1 12944 20160304084231
+173.252.90.242 0 4 628013 
+66.102.9.39 1 10 344003 20160302111557
+176.249.9.6 0 2 38680 
+72.5.65.213 1 1 12944 20160303083833
+5.198.92.198 1 24 1326737 20160304133443
+209.0.146.172 8 8 98474 20160301065058
+199.19.249.196 6 6 88260 20160310053726
+50.107.103.146 0 1 381249 
+173.252.74.110 0 1 418077 
+90.214.228.236 3 11 853871 20160307124733
+213.123.130.97 0 22 1339191 
+82.69.114.251 4 37 2918758 20160310003437
+86.17.240.231 2 31 2103672 20160303025532
+31.13.102.107 0 1 234179 
+94.9.113.78 1 1 544631 20160309044636
+69.63.188.207 0 3 578354 
+86.186.42.80 3 58 1080610 20160301152029
+204.79.180.134 0 1 17663 
+194.83.247.121 0 3 494548 
+2.31.113.185 7 113 5590995 20160312042308
+173.252.88.189 0 1 205000 
+86.180.46.50 2 2 25143 20160307092913
+86.131.13.50 3 6 531658 20160307103205
+46.208.220.211 1 58 812184 20160307142707
+188.166.3.168 1 1 12944 20160307103612
+92.30.204.127 1 1 12944 20160302110804
+86.146.116.224 5 39 1921723 20160308015916
+130.209.6.40 15 242 12976130 20160311031409
+141.163.103.55 5 54 1592885 20160310052622
+184.154.139.17 15 43 4870592 20160313180857
+130.208.79.101 8 155 5384127 20160310060159
+173.252.112.113 0 1 44124 
+90.203.200.196 2 2 29290 20160309083855
+82.31.110.135 1 1 14645 20160309040107
+146.90.183.85 2 2 23301 20160301191526
+82.39.64.79 1 29 1362769 20160307142212
+82.17.145.245 9 130 14126993 20160313111328
+91.225.19.228 2 30 1847008 20160310053727
+31.13.99.121 0 1 234179 
+178.137.94.117 2 2 25888 20160313091345
+23.124.144.39 0 1 12400 
+71.162.63.233 3 32 1909129 20160313185206
+195.194.142.17 1 1 14645 20160309055800
+173.252.90.105 0 1 350310 
+86.132.169.63 1 1 14645 20160309041620
+184.154.139.18 11 31 4742926 20160312095042
+173.252.90.236 0 1 205000 
+144.82.230.196 1 1 14645 20160309052641
+144.32.220.186 1 23 2854191 20160309070503
+71.9.101.10 0 1 21993 
+176.8.88.108 2 2 25888 20160312064311
+81.155.114.73 6 58 1021858 20160308161607
+205.155.44.10 4 78 2857782 20160303160443
+95.147.30.247 1 24 1386298 20160308151606
+173.252.112.96 0 2 373354 
+90.201.248.237 0 1 305158 
+66.220.156.115 0 3 541708 
+77.97.231.102 1 22 1326602 20160307070948
+2.100.244.15 0 25 1377751 
+212.159.16.207 1 1 17105 20160302120850
+82.11.202.139 5 60 1110232 20160307135513
+52.3.112.103 0 1 205000 
+188.181.87.203 0 1 28919 
+173.252.120.98 0 1 418077 
+193.60.231.84 9 92 11113991 20160309054030
+75.146.14.162 0 1 381249 
+37.201.47.181 1 1 14645 20160309165619
+216.99.184.50 1 24 1351973 20160301224835
+2.28.167.147 1 27 1357845 20160301122102
+31.13.105.112 0 1 21340 
+142.4.218.201 1 1 12944 20160310205854
+82.42.72.115 0 1 33440 
+188.29.165.153 1 1 12944 20160305042817
+78.147.200.24 1 17 619134 20160303103749
+86.152.218.75 1 5 280271 20160309160753
+103.246.38.196 2 2 27724 20160307073759
+31.25.2.36 3 74 2547821 20160307112918
+184.65.62.146 2 39 2226670 20160306111213
+86.174.164.112 1 1 12944 20160301193216
+86.27.5.60 2 11 1178821 20160304131743
+143.159.109.200 1 11 1184045 20160309144732
+132.79.9.16 1 1 12944 20160301132421
+62.99.101.50 0 22 1338159 
+217.44.64.7 1 23 1307849 20160308051144
+195.74.124.97 4 22 505027 20160307174803
+92.5.102.170 2 14 533982 20160306153135
+95.144.149.204 1 3 21503 20160313124200
+151.226.86.136 3 11 535895 20160302093126
+66.220.146.27 0 1 44124 
+86.171.175.63 6 9 5060158 20160311155455
+158.69.228.18 3 3 38832 20160304052727
+173.252.90.230 0 1 49659 
+86.172.216.221 1 27 716481 20160310143545
+80.43.74.132 8 120 13167139 20160302124027
+204.79.180.3 0 1 17663 
+92.30.113.221 0 2 8559 
+82.42.113.175 2 80 4806660 20160301083700
+58.161.16.58 3 6 183858 20160301043048
+173.252.114.117 0 1 21980 
+31.25.3.60 3 30 2503638 20160308073225
+173.252.74.121 0 1 168354 
+81.156.127.28 2 6 310833 20160302184321
+31.13.113.66 0 1 44124 
+81.103.125.170 1 3 249334 20160310134243
+81.233.36.166 1 22 962511 20160311114750
+86.137.230.60 1 6 25441 20160309125304
+81.132.248.114 0 1 21993 
+46.16.7.212 1 1 12944 20160307100409
+81.157.71.9 1 1 14645 20160309080653
+46.118.153.38 1 1 12944 20160313092217
+90.216.162.236 1 1 14645 20160310025309
+81.108.70.125 4 79 2770915 20160301032730
+31.13.105.114 0 1 510 
+66.220.146.28 0 5 968364 
+86.181.156.52 2 5 3439427 20160310143211
+78.147.199.190 1 1 12944 20160302130509
+82.33.247.224 2 2 2698288 20160310044255
+185.69.144.161 2 3 23226 20160308015847
+159.253.76.126 1 1 12944 20160305162647
+188.39.86.173 3 52 2395344 20160307065900
+79.69.141.122 5 84 3561352 20160310144742
+87.114.81.14 1 1 14645 20160309102437
+173.252.88.95 0 4 1285109 
+89.240.240.13 0 4 36140 
+101.176.50.220 0 28 1350342 
+192.241.234.4 1 1 17473 20160310092144
+86.142.157.218 1 23 1319050 20160312044613
+77.102.30.37 1 1 12944 20160302112646
+173.252.88.87 0 2 510158 
+86.163.198.226 0 1 33440 
+86.143.174.144 1 1 14645 20160309071847
+205.250.53.6 1 1 14645 20160309102919
+92.40.249.122 1 1 12944 20160307094434
+173.252.112.103 0 1 205000 
+185.26.18.14 1 5 298866 20160309062432
+66.220.146.30 0 4 585832 
+85.255.234.164 1 1 14645 20160309055440
+69.171.230.116 0 2 249124 
+203.133.171.31 3 3 38832 20160306093243
+173.252.90.241 0 1 205000 
+173.252.90.124 0 1 305158 
+66.249.93.223 4 5 52288 20160311061049
+67.246.71.151 0 1 44124 
+80.47.240.69 3 8 50859 20160302112627
+2.100.29.37 0 1 21993 
+81.140.186.17 1 20 764599 20160301023711
+5.67.163.11 0 5 889939 
+90.192.65.159 1 1 14645 20160310022608
+78.150.168.13 0 2 33275 
+5.150.98.113 2 85 4325353 20160310092143
+86.156.212.130 1 1 14645 20160310020346
+130.43.180.35 3 48 1132468 20160307174038
+212.159.89.192 0 5 10796 
+145.64.134.241 1 91 10236934 20160302080712
+5.198.26.143 2 67 2320097 20160304013611
+188.94.20.14 1 1 12944 20160303061158
+78.147.204.54 5 64 3832161 20160304041720
+92.30.136.157 1 1 14645 20160309151245
+24.64.74.25 1 1 14645 20160309084324
+54.163.137.93 1 1 12944 20160301220009
+86.158.210.27 2 34 1964287 20160305045736
+5.67.51.12 2 10 77485 20160302052622
+94.8.181.94 1 1 14645 20160310094341
+193.212.166.213 2 2 29290 20160309082542
+86.180.85.157 2 26 1630484 20160302042042
+66.220.146.31 0 3 820610 
+185.100.85.191 1 1 12944 20160306104729
+176.31.39.23 3 3 32972 20160312110021
+69.58.178.59 11 11 161051 20160309110410
+209.9.105.143 1 1 12944 20160309104232
+70.209.22.58 4 100 6215833 20160301185942
+31.13.110.103 0 1 68374 
+69.63.188.205 0 1 234179 
+109.148.200.130 1 1 14645 20160309062749
+66.249.93.238 1 10 525037 20160308052341
+81.109.229.51 2 10 1155422 20160309104721
+82.153.216.196 10 10 129440 20160314003824
+70.194.143.212 0 1 8097 
+202.46.51.110 1 1 12944 20160304104909
+109.146.252.25 2 3 59074 20160305165210
+81.97.249.106 1 1 12944 20160309152839
+144.32.240.58 4 29 2514972 20160303150507
+72.5.65.214 1 1 12944 20160305095641
+86.155.91.215 4 21 1567941 20160301163600
+108.61.226.41 1 15 1278095 20160301201625
+142.177.130.104 1 1 12944 20160302072242
+67.138.227.10 1 35 1240182 20160308144317
+95.149.111.180 1 1 12944 20160307082035
+173.252.120.112 0 1 44124 
+80.40.134.104 10 17 231331 20160310124743
+66.220.146.22 0 1 168354 
+86.183.141.131 1 4 49847 20160302111900
+94.194.102.235 15 156 5724342 20160301172619
+204.79.180.72 0 1 11532 
+83.29.106.21 1 66 3102896 20160304100226
+14.176.235.56 1 1 12944 20160306073231
+173.252.88.84 0 2 439179 
+178.78.66.137 1 4 52065 20160310034338
+137.50.163.222 1 6 25441 20160309040650
+24.113.84.242 1 1 12944 20160301114744
+173.252.88.183 0 4 812533 
+140.247.132.180 1 7 92055 20160311100229
+95.145.225.95 9 70 5393245 20160312055901
+86.18.239.226 0 1 9337 
+52.90.177.62 2 2 13022 20160310115020
+173.252.90.237 0 1 168354 
+46.229.170.197 1 1 12944 20160306150542
+188.29.121.195 1 1 12944 20160302043206
+192.0.181.220 1 1 14645 20160309093114
+31.13.97.109 0 1 168354 
+71.190.39.83 3 19 1029716 20160303175609
+105.199.177.61 0 5 10796 
+2.123.153.4 4 36 2228784 20160301144432
+90.211.58.57 1 23 1351618 20160304181812
+90.205.22.49 2 2 29290 20160309083122
+86.1.108.108 5 29 1634731 20160306075940
+129.42.208.182 1 13 36725 20160302123331
+173.252.74.116 0 1 350310 
+213.190.162.59 2 70 2504946 20160311080026
+204.79.180.110 1 1 11967 20160304183106
+217.252.105.143 1 1 14645 20160309070107
+5.151.46.89 1 1 12944 20160306182827
+197.132.255.28 0 2 710 
+86.129.142.39 1 4 264703 20160302111325
+69.171.228.117 0 1 8097 
+82.35.110.254 0 1 355 
+64.223.220.78 0 4 6279 
+109.86.72.162 3 3 38832 20160314041752 20160314041752 /
+217.43.249.150 1 66 4290859 20160309154222
+95.144.246.120 2 6 349889 20160302042323
+223.179.114.211 0 1 44124 
+92.20.146.91 9 137 4110556 20160310124710
+204.79.180.61 0 1 11663 
+199.30.16.169 0 2 29712 
+86.149.208.58 1 1 14645 20160310032609
+144.32.241.128 5 145 11489796 20160301091753
+66.220.156.118 0 2 336708 
+66.220.158.99 0 1 205000 
+37.115.188.48 1 1 12944 20160310120850
+90.107.59.223 1 1 14645 20160309074258
+31.52.48.227 0 22 1338674 
+195.195.206.105 1 1 12944 20160302052040
+2.98.119.188 2 2 30049 20160308073708
+92.22.145.98 2 34 1619337 20160313145732
+204.79.180.124 0 1 18049 
+90.202.242.14 1 1 12944 20160304124354
+81.131.118.55 2 13 623221 20160310083233
+95.83.253.252 1 2 47107 20160306094147
+173.252.114.119 0 1 3016 
+90.210.242.150 1 1 14645 20160309174824
+137.222.114.245 1 4 52065 20160309050841
+130.43.180.4 5 76 2540486 20160303110354
+86.24.8.57 1 1 14645 20160309051313
+82.132.231.125 5 67 3407177 20160307202720
+85.193.148.157 2 5 94836 20160303123208
+144.32.94.87 1 24 1351973 20160307115932
+80.189.129.53 2 36 2114468 20160305133825
+2.97.20.95 7 91 4426337 20160305210601
+144.32.240.9 1 4 52065 20160309060319
+109.157.255.76 6 14 710068 20160310102722
+69.63.188.201 0 1 418077 
+173.252.112.102 0 1 49659 
+185.100.86.128 1 1 12944 20160307101335
+118.92.238.211 1 1 14645 20160309132510
+86.142.63.182 10 111 12019716 20160303135810
+92.21.43.106 1 1 14645 20160309050004
+92.11.13.197 4 172 13163785 20160309115806
+88.106.70.157 1 1 1516032 20160313070050
+204.79.180.7 0 1 17663 
+93.93.223.188 0 1 34163 
+66.220.156.123 0 3 754785 
+5.67.114.147 1 1 14645 20160309074738
+2.71.147.143 1 28 973662 20160311144945
+82.219.6.135 1 1 12944 20160311093759
+79.69.146.128 9 89 3502410 20160308124106
+70.104.0.63 4 10 526201 20160310155014
+173.252.122.116 0 1 388505 
+1.136.97.80 1 27 716481 20160313214753
+86.47.80.146 5 5 65569 20160308030931
+81.159.196.148 7 7 908398 20160308083703
+93.160.60.22 3 3 38832 20160313052311
+173.252.90.233 0 2 278303 
+99.113.32.224 0 1 44124 
+173.252.114.116 0 3 36986 
+88.106.57.91 0 1 34163 
+173.171.10.11 2 36 2114468 20160302031447
+86.140.193.68 5 55 3046466 20160313144500
+109.155.96.54 9 71 2991093 20160309132309
+173.252.112.98 0 1 205000 
+192.99.150.120 2 2 25888 20160302015936
+80.176.141.228 1 22 1351096 20160304123359
+173.252.112.105 0 1 44124 
+37.250.46.12 1 20 541417 20160311001409
+170.218.219.21 2 44 2026249 20160301130211
+198.252.44.8 4 4 51776 20160311153602
+23.235.70.131 1 24 425254 20160310125520
+95.151.200.224 1 16 223239 20160302110757
+149.202.241.183 5 20 86364 20160308182022
+81.157.178.220 1 16 3004146 20160302041835
+81.152.106.62 2 11 1192771 20160302040758
+144.32.220.194 7 31 7820260 20160309074956
+185.69.144.114 1 1 12944 20160306084002
+31.205.100.101 0 25 1312922 
+80.42.35.51 2 27 4644991 20160309094402
+24.187.148.41 1 1 12944 20160301092541
+115.187.192.216 1 4 52065 20160309120217
+2.31.2.18 3 6 532403 20160307085950
+173.252.90.104 0 2 655468 
+109.147.68.164 2 19 1252735 20160302133706
+66.249.93.85 0 1 355 
+92.22.65.98 5 33 1505028 20160302041028
+212.250.191.34 1 1 14645 20160310141742
+146.200.92.232 1 4 506515 20160302132136
+82.3.254.242 1 1 12944 20160311023156
+162.203.82.1 1 1 12944 20160301181226
+130.88.99.219 4 101 8430973 20160303065155
+86.29.70.255 1 1 11967 20160308025101
+79.69.148.104 6 89 3322726 20160308161528
+66.220.146.24 0 1 168354 
+204.79.180.161 1 1 12944 20160313194509
+90.201.228.170 1 22 961994 20160302135833
+107.167.108.163 0 6 11151 
+86.165.189.173 1 1 12944 20160301035516
+146.199.97.227 4 131 10895932 20160310170338
+2.24.194.125 1 1 14645 20160310032941
+109.157.139.67 6 181 13628626 20160307082021
+150.70.173.42 1 1 12944 20160301135827
+5.67.238.82 1 1 14645 20160310030054
+8.28.16.254 7 7 97405 20160307121332
+188.255.18.88 0 22 1339191 
+92.8.13.16 7 77 4237103 20160304164601
+92.22.183.221 1 1 14645 20160312040841
+94.9.194.109 2 84 4570845 20160304104039
+92.237.45.187 1 1 12944 20160301032611
+86.147.237.31 1 46 940737 20160302100147
+122.56.211.94 1 24 1386298 20160311231837
+82.16.94.84 1 1 12944 20160312185353
+82.22.228.59 2 45 2423691 20160310141029
+204.79.180.186 0 1 11663 
+82.22.78.87 1 1 12944 20160301065035
+178.208.12.15 1 1 12944 20160305070709
+204.79.180.163 0 1 11663 
+49.195.6.163 0 1 305158 
+87.114.207.69 3 129 3151723 20160307171925
+92.30.119.218 5 41 985313 20160309043311
+2.26.195.28 1 1 12944 20160306134357
+5.15.212.189 1 1 12944 20160305092923
+64.128.1.172 0 1 985439 
+151.249.73.130 1 1 14645 20160309055859
+62.64.254.117 2 73 2511935 20160307024118
+173.252.90.239 0 1 205000 
+109.151.123.199 1 3 51149 20160302111045
+212.159.21.228 1 1 14645 20160310022016
+5.64.51.148 1 1 12763026 20160309050956
+50.38.114.11 0 2 88248 
+65.19.167.132 1 1 12944 20160311032246
+90.199.67.189 8 106 1832030 20160305170029
+166.78.9.12 1 1 12944 20160310091843
+129.215.9.58 1 24 1351973 20160305093749
+92.40.249.95 5 137 3877741 20160308061111
+145.132.103.129 1 24 533197 20160308135540
+173.252.90.116 0 2 212478 
+31.49.251.98 1 19 3214954 20160302042711
+92.42.149.244 1 1 10612 20160301100610
+109.150.136.202 1 24 1385781 20160303100122
+66.220.152.3 0 1 205000 
+173.252.88.185 0 1 205000 
+193.190.234.42 1 26 552568 20160309030942
+54.174.146.225 2 2 13022 20160311113126
+31.86.46.14 0 3 42722 
+2.97.76.94 1 1 14645 20160309080802
+79.65.149.101 2 32 1896023 20160308064419
+87.113.87.136 1 20 471151 20160310024239
+213.163.171.129 3 14 1515545 20160303063133
+93.186.31.96 0 2 234689 
+5.67.102.90 0 16 419086 
+5.107.161.43 1 1 14645 20160309135959
+86.160.191.96 3 4 207186 20160304025159
+173.252.90.232 0 1 305158 
+5.71.12.133 1 4 264703 20160302115837
+202.46.48.148 1 1 12944 20160303074151
+69.171.230.114 0 1 205000 
+143.159.123.111 3 3 38832 20160313133447
+109.147.74.40 1 22 961994 20160304014506
+86.186.46.178 5 120 2835375 20160303185948
+199.116.169.254 2 2 24387 20160301130211
+123.26.251.210 1 1 12944 20160301212826
+121.222.106.163 1 29 1362769 20160304210319
+81.132.18.77 0 5 10796 
+82.9.180.45 1 1 14645 20160309063838
+66.220.156.98 0 1 168354 
+144.32.240.26 1 1 14645 20160309045614
+66.220.158.97 0 1 350310 
+94.9.221.218 2 15 941023 20160309044013
+80.3.107.192 1 1 2995078 20160309045638
+173.252.88.93 0 4 1285109 
+199.91.135.163 1 1 17105 20160301174210
+178.208.12.6 1 1 12944 20160306225205
+2.96.49.126 1 8 752510 20160302114722
+86.4.31.78 3 79 3313013 20160309081210
+46.64.242.113 2 3 23367 20160302114219
+130.241.10.113 1 24 1351973 20160308025704
+90.213.36.18 2 34 1693891 20160311153501
+82.132.227.102 1 23 1351618 20160302072954
+79.69.129.213 1 25 1267457 20160313040938
+109.149.3.171 2 29 2593451 20160302150544
+173.252.120.109 0 1 205000 
+193.248.178.237 1 1 12944 20160311101616
+86.132.202.150 2 31 1861860 20160305023200
+46.64.75.252 0 1 381249 
+173.252.90.240 0 1 168354 
+2.125.143.71 4 63 2864369 20160309125231
+94.7.101.144 1 24 1351973 20160303142516
+86.18.6.84 0 28 50883 
+66.220.156.114 0 1 168354 
+80.195.187.95 1 23 1217427 20160307070713
+31.25.4.1 4 23 1188134 20160309065454
+144.32.220.4 2 5 518104 20160301093154
+66.249.93.234 3 14 479976 20160309054138
+173.252.89.225 0 1 85130 
+185.100.85.138 1 1 12944 20160301203615
+216.249.238.219 5 16 392879 20160301120047
+173.252.90.248 0 1 234179 
+66.220.156.120 0 1 168354 
+86.168.124.15 1 6 23740 20160302044525
+212.183.140.55 1 24 1385781 20160306064819
+173.252.90.98 0 3 678512 
+212.118.227.90 1 1 12944 20160304030657
+204.79.180.162 0 1 11663 
+94.197.120.175 0 1 33440 
+66.220.146.23 0 1 44124 
+109.156.230.80 2 35 1909468 20160303070755
+92.22.164.106 3 52 1173605 20160307040259
+194.35.219.97 1 1 12199 20160309063817
+31.49.89.55 2 31 1675517 20160302042143
+80.193.123.210 2 65 2234112 20160304093904
+92.30.126.161 1 1 12944 20160302123828
+80.7.114.109 1 24 1386298 20160309145019
+109.175.240.248 2 9 336843 20160302163956
+173.252.114.114 0 3 33202 
+194.83.71.242 1 25 1350733 20160311074730
+62.253.40.209 2 19 3557033 20160310092645
+66.220.158.118 0 1 21340 
+69.171.230.107 0 1 168354 
+66.220.156.117 0 2 336708 
+66.220.146.26 0 1 168354 
+79.69.131.151 2 2 27724 20160307091759
+66.249.93.90 0 1 355 
+31.13.113.80 0 1 44124 
+173.252.114.118 0 2 81296 
+81.98.236.18 1 1 14645 20160309071956
+31.80.200.235 1 24 1385781 20160307071958
+31.13.113.65 0 1 205000 
+86.133.144.97 1 1 12944 20160302114446
+82.20.235.173 1 1 14645 20160310064257
+188.67.6.143 5 34 1749401 20160304142820
+88.96.36.150 3 35 2402183 20160302091832
+109.155.68.172 7 58 2300963 20160313032919
+202.46.51.17 1 1 12944 20160303221056
+176.126.252.11 1 1 12944 20160308041729
+82.219.234.109 2 31 2303821 20160310032308
+108.66.53.203 1 1 12944 20160304094117
+51.9.134.226 1 22 1183781 20160311171553
+188.29.165.34 1 1 14645 20160309050653
+176.126.228.52 8 62 4597083 20160311065806
+193.62.27.62 2 5 519459 20160309062305
+173.252.90.106 0 2 473512 
+128.227.186.188 1 21 541772 20160310083545
+5.198.100.59 1 1 12944 20160303060420
+80.192.100.106 2 2 29719 20160307081921
+100.9.207.137 3 31 1690390 20160301114226
+86.180.69.175 3 81 2432893 20160305011053
+204.79.180.57 1 2 26443 20160309011738
+77.98.212.188 0 2 8559 
+212.159.72.123 2 34 1693139 20160302181608
+96.233.44.57 1 7 96217 20160310080412
+86.191.157.129 1 1 12944 20160311121734
+70.211.64.87 0 1 34163 
+217.42.62.255 1 1 14645 20160309184125
+174.23.119.151 1 15 1205114 20160310132359
+95.146.96.94 0 10 203244 
+144.32.240.7 1 1 14645 20160309084047
+90.220.208.93 1 46 939474 20160301114251
+67.138.4.18 3 17 317753 20160310133112
+69.63.188.203 0 1 49659 
+80.177.26.39 1 29 1362769 20160307055644
+204.79.180.91 0 1 11532 
+144.32.244.65 2 12 797650 20160302091142
+144.32.94.107 5 82 2455922 20160302101441
+198.101.238.203 2 2 25888 20160306002849
+2.120.247.78 5 69 3011666 20160304121638
+68.104.158.240 2 5 277647 20160306203231
+197.132.107.80 0 11 21947 
+209.9.105.148 1 1 12944 20160313122556
+5.198.21.14 0 1 355 
+86.169.230.108 1 1 14645 20160310030321
+81.155.52.121 1 1 14645 20160309052546
+107.172.245.174 1 1 0 20160310121826
+209.128.28.2 3 93 6899318 20160307121703
+90.193.15.158 1 1 14645 20160309141220
+85.255.233.119 1 1 12944 20160312105230
+83.216.144.220 1 1 14645 20160309043541
+79.64.43.134 0 1 34163 
+89.240.240.113 1 1 14645 20160310040908
+95.24.178.30 1 4 50364 20160312214357
+2.28.49.177 1 1 12944 20160302022523
+82.20.10.228 1 23 1351618 20160307150057
+213.205.198.148 1 1 14645 20160310050001
+31.53.116.101 2 4 90794 20160303033722
+173.252.90.93 0 1 44124 
+144.32.83.219 1 1 12944 20160303081842
+79.69.152.49 1 1 14645 20160310132920
+204.79.180.240 0 2 19240 
+5.64.62.97 1 22 705685 20160309114112
+173.252.90.89 0 1 49659 
+212.104.147.55 11 11 142384 20160314001457
+81.106.45.68 1 1 14645 20160309164032
+87.113.206.171 1 1 14645 20160309045656
+157.140.110.37 3 88 7843523 20160301103423
+204.79.180.215 0 1 7708 
+69.146.105.58 1 67 2475507 20160305131601
+62.174.71.37 0 1 14146 
+81.101.114.98 1 1 14645 20160309035307
+82.219.6.194 0 5 10796 
+193.62.51.5 3 104 9260461 20160301053557
+90.203.63.196 1 87 3238122 20160311181535
+78.158.11.226 3 3 34401 20160305095602
+86.128.26.57 1 1 14645 20160309085713
+5.198.58.228 2 30 1719403 20160302171244
+85.255.233.235 1 7 394583 20160310132042
+197.132.4.234 0 6 11151 
+193.124.181.129 1 1 12944 20160308053719
+92.40.14.99 5 100 5539999 20160311194137
+69.113.173.79 7 61 1416612 20160304150150
+62.254.40.253 4 40 2652158 20160310150434
+86.173.89.72 1 1 12944 20160311133700
+193.60.231.206 0 11 1090813 
+86.160.6.137 12 38 22318327 20160309165326
+149.254.250.164 1 83 4301881 20160311031909
+84.212.49.69 2 31 1866022 20160307153627
+188.93.56.216 1 1 12944 20160310093610
+38.100.21.63 10 11 135364 20160313182124
+173.252.88.186 0 3 678512 
+95.146.176.147 1 7 23505 20160301134725
+31.53.233.170 1 1 14645 20160309045413
+79.76.200.210 1 1 14645 20160309170802
+173.252.112.106 0 1 205000 
+46.119.112.86 1 1 12944 20160309135122
+204.79.180.114 0 1 11663 
+109.180.10.122 1 1 14645 20160310014803
+2.26.95.160 1 1 14645 20160309092139
+74.136.63.231 1 18 1246550 20160312101815
+91.228.167.109 3 3 38832 20160309231816
+86.158.150.66 1 45 906574 20160302110720
+194.129.60.13 2 48 2703946 20160304083950
+149.102.100.82 1 1 12944 20160309111250
+173.252.112.100 0 2 249124 
+173.252.90.235 0 2 249124 
+173.252.88.91 0 3 1050930 
+86.153.252.248 1 26 1394340 20160303041239
+144.32.240.47 7 108 7245588 20160309034034
+188.94.20.12 6 129 12354255 20160303073807
+62.49.3.77 1 8 1141323 20160304041125
+173.252.112.107 0 3 380832 
+128.243.2.33 1 1 12763026 20160309045406
+149.135.147.57 1 1 14645 20160310163458
+86.185.180.149 2 2 25888 20160306041409
+173.252.90.87 0 1 205000 
+178.137.165.104 1 1 12944 20160308084508
+96.251.110.195 1 1 12944 20160302164427
+78.147.206.119 1 1 14645 20160309055604
+144.32.234.123 3 75 2555665 20160310074830
+74.79.29.165 3 85 4009256 20160305213718
+80.40.134.103 2 8 72735 20160307024150
+109.151.73.111 1 1 12944 20160303172825
+66.249.93.194 4 18 378721 20160310184333
+50.252.212.14 1 1 12944 20160309152709
+66.220.158.102 0 3 760310 
+144.32.240.20 1 2 13299 20160301093156
+149.126.87.69 0 1 985439 
+82.31.206.196 5 69 2531171 20160306095544
+144.32.240.90 1 1 14645 20160309055900
+173.252.120.118 0 1 418077 
+50.4.172.251 2 9 769160 20160303155339
+66.220.156.112 0 1 305158 
+82.16.249.116 4 75 3444020 20160305035425
+204.79.180.167 0 1 7708 
+173.252.90.84 0 1 205000 
+91.228.167.130 2 2 25888 20160310031019
+82.28.138.189 1 1 14645 20160309111237
+64.74.215.128 11 14 186425 20160301234301
+185.4.159.12 3 31 1874449 20160303081255
+188.166.22.74 2 2 25200 20160304153547
+23.80.147.142 1 1 12944 20160305112400
+86.150.8.208 2 2 25888 20160313160721
+92.30.118.195 2 11 836548 20160305105554
+69.171.230.101 0 2 218013 
+78.101.97.207 1 7 23350 20160309094000
+66.249.93.8 3 8 41078 20160313162611
+80.189.176.177 2 50 1221302 20160307074539
+31.13.102.124 0 1 205000 
+173.252.74.112 0 1 49659 
+95.45.254.123 1 1 12944 20160305065559
+70.120.187.10 0 1 85130 
+136.243.172.46 1 1 12944 20160306175713
+86.180.88.222 1 23 962866 20160312044947
+86.159.46.166 1 24 1352490 20160309094556
+71.51.126.229 1 23 962349 20160304195122
+176.12.107.140 3 12 1235272 20160309112545
+193.63.43.188 2 29 1997777 20160311104149
+73.195.202.237 0 1 381249 
+69.171.230.123 0 1 49659 
+92.16.236.65 1 19 716810 20160302113000
+88.106.108.209 1 29 1362769 20160302040621
+2.97.1.227 3 35 1916936 20160302111456
+204.79.180.209 1 1 14645 20160312011634
+86.151.30.104 2 2 23301 20160302120835
+69.171.230.100 0 1 44124 
+82.71.28.196 1 23 1352135 20160309130811
+86.209.89.83 0 16 375910 
+82.163.78.234 17 17 234375 20160306012804
+176.43.150.58 1 1 12944 20160311093729
+212.118.227.87 1 1 12944 20160306165516
+2.121.83.186 2 29 1415843 20160309000936
+86.158.78.55 2 12 880847 20160312050545
+80.217.109.227 1 21 933650 20160312020127
+74.5.4.141 3 38 5987518 20160303080733
+86.161.255.161 1 29 1362769 20160301170949
+194.82.172.24 16 161 11508095 20160311140551
+81.141.156.86 2 2 29290 20160309080905
+109.153.15.83 0 1 11566 
+88.96.142.205 7 96 11297586 20160308100650
+78.147.207.134 0 7 128059 
+52.53.252.20 1 1 0 20160311084820
+80.4.157.154 1 23 1351103 20160301030237
+82.17.158.155 2 101 1957308 20160302041038
+76.2.234.44 1 30 1396932 20160302154901
+54.145.233.67 1 1 12944 20160313214839
+92.40.249.41 1 2 47107 20160301051836
+144.32.95.67 6 61 928205 20160302061224
+192.38.32.9 1 27 716481 20160309034811
+24.136.117.130 0 1 34163 
+195.162.12.14 2 31 2104189 20160310123555
+84.219.192.221 2 47 1117459 20160311085540
+81.141.43.27 3 7 841722 20160305050457
+213.107.58.246 2 5 74312 20160301115031
+192.76.8.18 2 29 1817381 20160305111509
+204.79.180.190 0 1 11070 
+66.249.93.226 2 4 26598 20160310060217
+82.5.227.52 1 1 12944 20160303060451
+86.19.234.207 2 10 554917 20160302050927
+123.176.24.240 0 1 985439 
+93.186.31.80 1 1 476030 20160309034939
+204.79.180.24 0 1 18049 
+217.115.65.20 0 1 355 
+86.186.42.58 1 1 14645 20160310024518
+197.132.50.15 0 5 10796 
+5.135.158.101 1 1 12944 20160310224910
+80.7.124.106 1 13 1115289 20160307073644
+86.131.3.90 5 33 3815597 20160309065133
+78.164.9.107 0 1 381249 
+54.88.0.151 14 17 122238 20160311130540
+97.104.179.4 0 1 44124 
+94.5.130.210 1 23 1184136 20160311073440
+90.199.163.65 8 119 3606303 20160310104000
+86.184.34.49 4 93 5963120 20160308070020
+185.30.27.89 10 56 2009142 20160304044949
+2.218.81.172 15 244 7051523 20160309081620
+173.252.120.97 0 1 234179 
+173.252.112.116 0 1 205000 
+204.13.201.137 1 1 12944 20160301012230
+83.71.247.36 6 6 80349 20160305010438
+173.252.88.89 0 1 205000 
+216.163.188.240 1 1 12944 20160309094717
+92.78.90.13 3 12 540254 20160301112207
+109.146.90.12 1 1 14645 20160310030828
+72.5.65.212 1 19 78836 20160305144815
+87.113.238.231 1 45 906574 20160307085735
+146.200.80.157 4 10 365792 20160302115257
+31.53.199.202 2 25 528371 20160302175926
+109.156.129.70 2 15 2110114 20160302111114
+83.100.143.30 2 5 521295 20160302054352
+80.47.197.24 1 1 14645 20160309061629
+109.246.40.160 4 147 7465516 20160303062740
+5.67.39.107 0 1 811 
+178.137.86.150 3 3 38832 20160309014949
+164.132.195.231 1 1 12944 20160309083313
+31.13.110.111 0 1 234179 
+217.13.152.234 1 1 14645 20160309060800
+173.252.120.120 0 1 418077 
+95.45.254.122 5 5 65569 20160301225916
+173.252.90.127 0 1 234179 
+92.23.240.22 1 9 1141678 20160301030827
+82.39.172.115 0 22 1170675 
+69.63.188.221 0 1 21340 
+173.252.90.246 0 2 510158 
+105.199.252.112 0 6 11151 
+86.19.159.130 1 22 830471 20160308091642
+132.189.79.10 1 3 77850 20160303123406
+86.0.242.216 6 110 8946171 20160305113404
+81.135.32.0 0 1 350310 
+95.144.22.223 0 19 456506 
+54.219.106.162 1 1 0 20160309115502
+70.209.53.98 1 13 331416 20160304201706
+204.79.180.64 1 1 10855 20160313070544
+5.80.55.66 1 23 1351618 20160302152049
+173.252.88.188 0 1 168354 
+95.150.191.96 1 25 1360177 20160305164809
+62.24.222.131 5 5 65520 20160304114025
+86.4.210.242 0 2 8559 
+86.170.240.64 2 3 793455 20160310055205
+173.252.88.182 0 2 373354 
+194.81.86.249 3 24 647907 20160304063741
+109.155.64.136 1 29 1363286 20160313073302
+209.5.238.5 1 1 14645 20160309065700
+86.106.17.210 3 3 35830 20160309033521
+82.132.239.85 1 54 809600 20160308114218
+52.3.160.241 0 1 21993 
+31.52.181.131 1 3 77850 20160302115231
+86.29.41.167 8 149 8373731 20160303111245
+78.150.172.41 1 5 54075 20160312023104
+66.249.93.94 1 1 12944 20160302065351
+86.157.236.147 2 37 1722312 20160304082148
+46.161.9.8 3 3 38832 20160313091014
+2.27.216.243 1 22 1326733 20160314033948
+197.132.35.86 0 10 21592 
+156.160.206.157 1 18 338567 20160311051203
+188.241.46.78 7 60 3357612 20160307094302
+84.13.122.68 1 24 1385781 20160301162844
+85.25.103.119 1 1 12944 20160305053128
+173.252.112.112 0 1 205000 
+38.106.26.20 0 7 1128379 
+92.29.133.14 9 142 5970450 20160308102854
+66.102.9.50 0 6 613392 
+80.0.7.180 1 1 14645 20160309092340
+92.17.10.3 1 46 906929 20160302041023
+204.79.180.95 0 2 19371 
+79.65.166.39 0 3 1251 
+141.228.106.150 2 18 111734 20160307073759
+70.168.189.116 4 85 3099402 20160301195352
+70.64.65.18 1 17 350187 20160306024930
+173.252.90.238 0 3 644179 
+193.34.187.186 2 28 1608186 20160311082738
+92.26.33.183 1 19 467446 20160304185956
+185.69.145.81 1 17 1236826 20160304175355
+173.252.112.101 0 4 306261 
+72.5.65.215 1 19 78836 20160303093323
+31.13.99.123 0 1 21340 
+188.165.200.217 1 1 0 20160305190116
+173.25.239.222 1 1 10014 20160308224911
+77.97.144.6 1 1 12944 20160304141217
+86.132.86.244 1 3 21503 20160305155205
+2.30.134.123 0 1 4517 
+173.252.112.110 0 1 44124 
+94.0.67.109 1 1 12944 20160305033626
+66.249.93.114 1 2 13299 20160301050418
+92.234.13.185 1 1 12944 20160311075640
+46.118.235.150 2 2 25888 20160313172821
+212.183.128.225 1 24 649077 20160308015001
+82.132.247.182 4 57 1529587 20160308110016
+109.155.192.160 4 12 2735726 20160309052043
+4.79.123.0 1 1 12944 20160301064118
+194.166.111.152 1 24 679061 20160310062133
+86.181.21.142 2 79 4898824 20160306060409
+85.255.235.94 1 8 60499 20160302045231
+62.31.36.58 1 1 12944 20160305131546
+173.252.120.116 0 1 418077 
+173.252.114.115 0 1 21993 
+94.30.68.12 2 24 1364562 20160304061544
+65.55.209.54 1 1 13744 20160307094006
+137.44.100.2 1 26 775750 20160301064644
+69.171.230.97 0 1 44124 
+94.3.67.150 1 1 12944 20160304172324
+138.201.18.168 1 1 0 20160313171639
+194.80.65.254 1 23 1180781 20160303072518
+91.125.170.171 1 2 24476 20160305063107
+109.158.58.37 1 4 50364 20160312092401
+82.41.251.21 2 3 60051 20160309041511
+173.252.90.231 0 1 49659 
+80.7.127.71 1 1 14645 20160309040256
+86.170.147.121 1 1 14645 20160310064758
+121.84.56.58 1 23 1352135 20160311204145
+81.140.80.254 9 185 16409140 20160309042751
+173.252.90.244 0 2 373354 
+31.13.102.102 0 1 350310 
+89.242.69.253 1 1 12944 20160304090215
+197.135.255.75 0 6 11151 
+195.154.146.225 1 1 12944 20160309123227
+64.7.132.122 1 1 11967 20160302120756
+71.17.226.71 0 3 132372 
+2.220.21.135 4 74 5017877 20160307072223
+5.9.106.81 17 17 234375 20160303235708
+92.31.1.161 1 1 12944 20160303140359
+91.84.129.9 1 8 973324 20160302095800
+78.151.183.196 1 23 1351618 20160302131244
+185.4.156.85 1 8 1141323 20160309050458
+173.252.88.90 0 2 586431 
+66.220.146.20 0 3 256602 
+37.230.147.251 1 1 12944 20160308003152
+81.103.230.216 1 9 1141678 20160302155359
+62.24.222.132 3 7 93104 20160304103548
+66.249.93.200 4 17 465348 20160312121232
+2.96.49.88 1 1 12944 20160310044408
+130.88.65.32 1 3 32315 20160308112556
+109.148.69.206 10 59 3935567 20160305110921
+54.225.104.196 0 2 33275 
+216.211.18.178 5 87 2770462 20160308215805
+131.111.185.1 5 167 11449710 20160302090937
+213.205.198.179 1 1 12944 20160306091042
+84.43.102.190 1 5 79171 20160303144454
+66.249.93.2 3 6 40211 20160311061049
+147.251.228.213 2 75 2317224 20160301035043
+12.153.197.90 1 29 1362769 20160301223046
+188.29.117.47 1 24 1351973 20160306092003
+66.220.156.103 0 1 168354 
+66.220.156.122 0 1 305158 
+204.79.180.138 0 1 7708 
+91.228.167.38 4 4 51776 20160309192235
+192.76.8.31 5 121 5484613 20160304123849
+82.153.163.128 1 10 338681 20160306082442
+81.178.64.39 8 13 5563773 20160308152251
+85.242.194.249 1 1 14645 20160310120609
+130.102.82.85 1 8 96572 20160310061616
+213.205.251.68 1 27 2057512 20160301124504
+145.234.241.103 5 31 2922160 20160303080735
+52.0.126.240 0 1 168354 
+144.32.240.252 3 91 5132306 20160311095130
+144.32.240.10 1 1 14645 20160309070722
+204.79.180.160 0 1 18049 
+143.159.107.175 1 28 1341293 20160311150611
+46.118.121.42 2 2 25888 20160309233021
+213.205.194.255 1 1 12944 20160309060850
+2.26.161.242 2 2 12808234 20160309064617
+86.143.218.99 2 31 2107834 20160302124153
+31.205.55.13 6 90 5376234 20160305150831
+173.252.90.249 0 2 584489 
+92.40.249.171 0 5 10796 
+72.64.97.200 1 1 12944 20160312010029
+81.151.46.61 5 18 1117263 20160311053249
+82.219.6.130 1 2 51268 20160307101134
+2.31.214.207 1 24 1385781 20160307162426
+90.201.92.40 3 3 43935 20160310071435
+204.79.180.178 0 1 18049 
+78.22.192.219 1 1 1516032 20160310050910
+73.14.38.67 0 1 11935 
+88.106.180.2 5 58 1531486 20160302121001
+66.220.146.229 0 1 110395 
+86.155.91.150 1 7 1097199 20160304151503
+86.176.220.105 1 1 11967 20160301162209
+84.13.125.188 2 6 125467 20160302162523
+5.151.176.109 3 100 8133126 20160304143733
+62.255.76.201 1 1 14645 20160309075933
+86.132.13.113 3 3 33073 20160302043318
+202.46.55.18 1 1 12944 20160304122937
+86.180.142.75 3 34 2368020 20160302045219
+90.212.1.150 4 50 945526 20160302102550
+66.220.146.21 0 2 373354 
+173.252.120.110 0 1 44124 
+66.220.156.96 0 1 234179 
+159.203.75.59 3 3 34925 20160305195931
+5.70.92.117 1 1 14645 20160309134930
+83.251.30.247 17 193 7952580 20160303004005
+54.237.125.183 2 2 25888 20160301071428
+109.145.57.46 2 28 1655135 20160309040602
+86.130.116.118 1 1 12944 20160302151230
+86.180.3.38 5 94 2945461 20160313231600
+92.40.248.26 1 19 342567 20160303035552
+86.139.181.62 1 1 14645 20160310020817
+20.132.68.148 0 37 1367663 
+209.2.183.102 2 48 1115043 20160301125620
+144.32.220.31 0 13 1316689 
+173.252.74.123 0 1 350310 
+173.252.120.102 0 1 205000 
+66.220.152.4 0 1 388505 
+81.132.99.112 1 1 14645 20160309131644
+78.145.51.124 1 1 12944 20160301045745
+204.79.180.140 0 1 7708 
+69.171.230.105 0 1 68374 
+173.252.88.180 0 1 168354 
+52.3.27.31 1 1 12944 20160309115156
+83.233.213.242 1 4 506515 20160311165846
+173.252.120.113 0 1 234179 
+73.157.15.217 0 2 88248 
+173.79.22.216 0 1 168354 
+204.79.180.200 0 1 7708 
+176.78.148.206 1 2 85421 20160309054753
+92.22.128.100 2 2 26688 20160302073834
+31.49.250.92 2 2 22213 20160302054843
+85.255.235.213 3 31 2776999 20160308133616
+54.166.83.166 1 1 12944 20160314013045
+143.52.41.255 1 1 12944 20160312113808
+109.156.45.198 3 27 1614737 20160309081444
+46.60.253.134 0 23 1339546 
+62.49.221.82 1 1 12944 20160304133311
+173.252.88.94 0 2 623077 
+92.31.81.90 1 10 1139921 20160312163341
+197.132.88.77 0 5 10796 
+86.145.209.237 2 49 1164702 20160302154602
+83.149.228.72 1 2 85421 20160310065930
+89.242.165.52 1 1 14645 20160309061057
+54.204.20.250 1 1 12944 20160302074840
+85.189.226.26 1 1 12944 20160301062824
+31.209.196.92 1 1 14645 20160310031655
+83.100.132.254 1 44 883846 20160302053841
+66.220.156.119 0 1 168354 
+99.246.38.103 1 20 456642 20160310193007
+173.252.89.228 0 2 218013 
+80.78.5.105 1 4 263348 20160301062214
+204.79.180.12 0 1 17663 
+86.139.182.55 2 68 5544721 20160310090453
+66.249.93.197 4 21 644439 20160307160150
+146.200.146.23 0 1 355 
+192.94.65.61 1 2 13456 20160302100713
+81.136.107.172 5 8 181576 20160301110815
+77.99.209.54 1 1 14645 20160309041017
+212.219.56.238 2 30 1862022 20160309075609
+82.219.32.13 1 1 12944 20160302051343
+72.76.243.86 12 12 165580 20160306090508
+46.208.17.196 2 33 2146039 20160303135950
+217.39.85.55 1 1 9772 20160302114710
+129.234.252.65 2 28 1681988 20160308084347
+146.90.42.189 1 1 26137 20160308135107
+197.132.255.224 0 1 355 
+31.50.145.138 0 20 818869 
+194.168.34.111 1 2 47107 20160309090721
+90.208.24.144 2 36 2114468 20160306065114
+149.148.252.245 2 47 1902868 20160302093427
+85.211.71.212 1 17 1082085 20160303161548
+94.13.222.29 7 140 3911948 20160303062620
+173.22.241.213 1 1 14645 20160309065825
+173.252.74.105 0 1 350310 
+209.159.138.19 1 1 12944 20160313150942
+195.99.255.2 1 53 805550 20160307100405
+92.10.4.241 1 1 14645 20160309140817
+193.150.26.253 1 1 12944 20160308092418
+66.220.158.101 0 1 350310 
+91.121.141.219 2 2 25888 20160314004630
+90.214.230.23 6 27 32484381 20160309131954
+173.252.90.229 0 1 205000 
+79.64.150.129 1 1 14645 20160309063335
+90.207.181.62 4 76 2570465 20160309154521
+144.32.220.199 3 74 2588917 20160304111220
+173.252.112.99 0 2 93783 
+144.32.241.129 6 110 2018388 20160308073734
+82.132.246.177 5 80 2904249 20160308204831
+86.171.70.242 0 7 245485 
+86.143.141.175 1 1 476030 20160312141529
+62.24.196.100 2 5 73019 20160302120922
+78.150.19.193 5 36 14676744 20160312163006
+94.72.208.15 3 15 711177 20160308154538
+82.219.6.129 3 5 423174 20160307101246
+80.60.49.154 2 110 1626380 20160306111914
+204.79.180.74 0 2 25757 
+91.205.72.180 13 259 19388019 20160304075728
+46.118.115.115 1 1 12944 20160312155751
+204.79.180.185 0 1 7708 
+83.100.254.108 2 52 3932428 20160301125748
+87.102.114.44 2 36 1833390 20160313133252
+86.8.174.190 1 1 12944 20160308193422
+31.53.138.207 2 7 911482 20160302111057
+197.132.169.172 0 6 11151 
+66.249.93.236 3 16 592471 20160311114647
+194.75.8.20 2 6 343314 20160307141338
+79.64.63.59 0 1 417 
+5.23.131.139 0 1 12400 
+82.95.229.97 1 22 961994 20160302015000
+143.159.122.22 2 54 818502 20160309053458
+66.249.93.78 1 1 12944 20160302111556
+92.30.119.167 4 78 2829955 20160309151617
+91.121.83.118 1 1 12944 20160301101435
+82.37.212.52 1 17 1286654 20160308040920
+81.129.78.240 1 5 539955 20160304172512
+86.142.63.132 2 28 2593613 20160310052322
+68.49.124.103 2 5 68055 20160301001256
+173.252.88.85 0 2 394434 
+78.151.102.199 2 10 526093 20160303084825
+88.109.13.143 1 1 12944 20160306092935
+184.154.139.20 8 26 1991407 20160313122234
+197.132.255.54 0 5 10796 
+108.212.176.203 0 1 381249 
+31.13.110.127 0 1 49659 
+173.252.90.97 0 1 305158 
+217.44.206.221 5 38 2188404 20160305152732
+86.144.74.201 2 24 1093567 20160305084958
+66.102.9.28 0 8 428386 
+2.26.98.230 1 4 52065 20160310043122
+66.220.156.107 0 1 168354 
+73.193.105.175 1 11 673206 20160307130729
+213.205.198.55 1 57 1256533 20160306144542
+81.135.243.58 1 2 47107 20160311100103
+86.26.41.115 7 134 5222550 20160308093158
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20160301 303 3432 175251154 114
+20160302 260 3068 157709347 140
+20160303 189 2253 126429591 86
+20160304 143 1948 101093752 78
+20160305 128 1374 69277606 59
+20160306 106 916 42084576 53
+20160307 142 1968 91803568 83
+20160308 243 2457 128067805 78
+20160309 325 2119 251720478 189
+20160310 221 2106 111490271 107
+20160311 143 1419 93408562 59
+20160312 67 418 34560292 41
+20160313 48 450 26242541 32
+20160314 7 33 2946013 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 45
+2mn-5mn 77
+30s-2mn 117
+15mn-30mn 20
+0s-30s 841
+30mn-1h 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 36
+/ 866 11041232 730 493
+/schools.html 201 2800266 149 140
+/gallery.html 178 3049406 44 70
+/pendant.html 120 1407813 44 57
+/history.html 116 1569720 25 38
+/exhibitions.html 99 1456445 24 52
+/film.html 93 1125022 23 47
+/team.html 81 1604733 14 20
+/publications.html 75 1917728 26 44
+/digital-museum.html 63 716844 3 26
+/docs/FoodsThenAndNow.pdf 7 8337826 0 0
+/docs/WhichOfTheseCouldYouEatAnswers.pdf 2 2340798 0 0
+//robots.txt 2 156 0 2
+/docs/LivingintheMesolithic.docx 36 30470766 2 29
+/vprt.html 33 328320 3 3
+/stats/ 9 2412 4 0
+/docs/WhoseFootprintsAnswersNames.pdf 3 1479261 0 1
+/headdresses.html 4 38765 0 0
+/docs/ResourcesForSchools.zip 9 114867234 3 4
+/docs/WhoseFootprintsAnswersImages.pdf 4 5023556 0 2
+/docs/ToolsRUs.pdf 9 26955702 4 2
+/docs/pendant.doc 14 18192384 4 6
+/stats/awstats/cgi-bin/awstats.pl 48 1490481 0 1
+/docs/FoodsThenAndNowAnswers.pdf 5 5866320 0 1
+/fish.html 35 375860 3 9
+/docs/AMesolithicPicnicExample.pdf 3 134352 0 2
+/funding.html 25 322315 3 7
+/contact.html 38 379177 8 8
+/links.html 51 524142 1 30
+/docs/WhichOfTheseCouldYouEat.pdf 9 10640304 1 1
+/news.html 47 781650 2 18
+/docs/WhoseFootprints.pdf 10 4760300 2 2
+/docs/ 4 0 0 0
+/docs/A%20MesolithicPicnic.pdf 6 177090 0 3
+/docs/AMesolithicPicnicFullScoreSheet.pdf 3 132895 0 0
+/docs/11000YearsAgo.pdf 17 9258727 4 6
+END_SIDER
