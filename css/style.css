@@ -871,3 +871,27 @@ div.spacer{
   position: absolute;
   z-index: 596;
 }
+/* Analytics banner */
+.analytics{
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	background-color: #2e2e2e;
+	width: 100%;
+	height: auto;
+	opacity: 0.8;
+	text-align: center;
+	padding: 1em;
+}
+.analytics p {
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+}
+/* Button for analytics */
+.analytics-consent {
+	baclground-color: #fafafa;
+	border: 0;
+	color: #000000;
+	padding: 5px;
+	cursor: default;
+}
