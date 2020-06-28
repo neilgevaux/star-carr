@@ -1,0 +1,236 @@
+/*--------------------------
+ABOUT SECTION
+--------------------------*/
+#primary-content {
+	width: 70%;
+	height: auto;
+	margin: 0;
+	padding: 10%;
+	background-color: #fafafa;
+}
+#primary-content h2 {
+	margin-top: 2em;
+}
+.primary-figure {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+/* Makes the images responsive */
+.primary-figure img {
+	width: 100%;
+	height: auto;
+}
+.primary-caption {
+	width: 100%;
+	height: auto;
+	background-color: #003333; /* Dark blue */
+	color: #000000;
+	padding: 1%;
+	position: absolute;
+	bottom: 0;
+	left:0;
+    background: rgba(255,255,255,0.8);
+}
+/*--------------------------
+THE TEAM
+--------------------------*/
+#primary-content-team-gallery {
+	width: 100%;
+	padding: 5%;
+}
+.gallery-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1, h2.team-img-gallery {
+	padding: 4% 0 0 0;
+}
+.team-gallery-image {
+	width: 15%;
+	height: auto;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	margin: 2% 2% 0 0;
+}
+.team-gallery-image img {
+	width: 100%;
+	height: auto;
+}
+.team-gallery-caption h3{
+	background: rgba(0,18,18,0.9);
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    padding: 1%;
+}
+.team-gallery-caption h4{
+	background: rgba(0,18,18,0.9);
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    padding: 1%;
+}
+
+/*--------------------------
+GALLERY
+--------------------------*/
+#main-image-gallery {
+	width: 100%;
+	position: relative;
+	padding: 10%;
+}
+.main-gallery-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*--------------------------
+THE DIGITAL MUSEUM
+--------------------------*/
+
+/*--------------------------
+HEADDRESSES
+--------------------------*/
+#tiled-page-content {
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 0;
+	background-color: #fefefe;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#tiled-page-content > div {
+	background-color: #ffffff;
+	margin: 5% 2% 0 2%;
+	width: 46%;
+	padding: 0;
+	border: 1px solid #dddddd;
+	box-shadow: 1px 1px 20px #dddddd;
+}
+
+h1.tiled-page-content,h2.tiled-page-content {
+	width: 100%;
+	margin-left: 2%;
+}
+.model-responsive{
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.model-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+p.warning-text {
+	background-color: #8B0000; /* Red */
+	color: #ffffff;
+	padding: 0.5em;
+}
+#film-titles {
+	width: 100%;
+	padding: 5% 2.5% 0 2.5%;
+}
+#film-page-content {
+	height: auto;
+	width: 100%;
+	margin: 5% auto;
+	padding: 0;
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#film-page-content > div {
+	background-color: #ffffff;
+	margin: 5% 2% 0 2%;
+	width: 46%;
+	padding: 0;
+	border: 1px solid #dddddd;
+	box-shadow: 1px 1px 20px #dddddd;
+}
+h2.film-tile, h3.film-tile {
+	padding: 0 2%;
+}
+/*--------------------------
+SCHOOLS
+--------------------------*/
+#main-schools-content {
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5%;
+	background-color: #fafafa;
+	/* display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; */
+}
+/* Create two unequal columns that floats next to each other */
+.schools-column {
+  float: left;
+  padding: 5% 2%;
+}
+.left {
+  width: 60%;
+}
+.right {
+  width: 40%;
+  padding-top: 8%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
