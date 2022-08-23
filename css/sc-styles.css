@@ -38,9 +38,6 @@ a {
 a:hover {
 	color: #001212; /* Darkest blue */
 }
-header {
-
-}
 /* Page wrapper */
 #wrapper{
 	position: relative;
@@ -216,7 +213,7 @@ SECTIONS
 	margin: 0 auto;
 	padding: 2.5% 5%;
 	/* background-color: #f4f3f3; */
-	background-color: #f6f6f;
+	background-color: #f6f6f6;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -331,7 +328,7 @@ img.homepage-tile {
 }
 
 .footer-top {
-	background-color: #001212; /* Darkest blue */
+	background-color: #ffffff;
 	text-align: center;
 	padding: 5%;
 }
